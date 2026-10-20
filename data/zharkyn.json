@@ -1,0 +1,35 @@
+{
+ "_note": "Zharkyn, the Governor's horse. appearances: yearly public appearances (md = month-day; rule 'lastSatApr' = last Saturday of April). news: dated items, newest first on the page; date may be YYYY or YYYY-MM-DD.",
+ "appearances": [
+  {"id": "parade", "md": "03-11",
+   "name": {"en": "Irad Day parade", "ir": "Irad künündögü parad", "ru": "Парад в День Ирада"},
+   "place": {"en": "Central Square, Talas, from 08:30 (live on IradOne)", "ir": "Borborduk ayant, Talas, saat 08:30dan (IradOne tüz efirde)", "ru": "Центральная площадь, Талас, с 08:30 (прямой эфир IradOne)"},
+   "what": {"en": "Leads the mounted honour guard on matched golden Akyels at the head of the parade.", "ir": "Paraddın aldında birdey altın akyelderdegi atchan ardak karoolun bashtap jürüt.", "ru": "Возглавляет конный почётный караул на одномастных золотых акъелях во главе парада."}},
+  {"id": "hippodrome", "md": "03-11",
+   "name": {"en": "Irad Day meeting", "ir": "Irad künündögü at chabısh", "ru": "Скачки Дня Ирада"},
+   "place": {"en": "Irad State Hippodrome, Talas, afternoon", "ir": "Irad mamlekettik ippodromu, Talas, tüshtön kiyin", "ru": "Государственный ипподром Ирада, Талас, после полудня"},
+   "what": {"en": "A lap of honour before the President's Cup final.", "ir": "Prezident kubogunun finalının aldında ardak aylanuusu.", "ru": "Круг почёта перед финалом Кубка Президента."}},
+  {"id": "openday", "rule": "lastSatApr",
+   "name": {"en": "Spring open day and birthday", "ir": "Jazgı achık eshikter künü jana tuulgan kün", "ru": "Весенний день открытых дверей и день рождения"},
+   "place": {"en": "State Stud Farm of Talas, 10:00–15:00", "ir": "Talas mamlekettik jılkı zavodu, 10:00–15:00", "ru": "Государственный конный завод Таласа, 10:00–15:00"},
+   "what": {"en": "Schools and families meet Zharkyn and the spring foals. Admission free.", "ir": "Mektepter jana üy-bülölör Jarkın jana jazgı kulundar menen tanıshat. Kirüü akısız.", "ru": "Школы и семьи знакомятся с Жаркыном и весенними жеребятами. Вход свободный."}}
+ ],
+ "news": [
+  {"date": "2026-04-25", "src": {"en": "Department of Public Information", "ir": "Koomduk maalımat departamenti", "ru": "Департамент общественной информации"},
+   "text": {"en": "Zharkyn turns sixteen. Some 3,000 schoolchildren visit him at the spring open day of the State Stud Farm of Talas.", "ir": "Jarkın on altı jashka chıktı. Talas mamlekettik jılkı zavodunun jazgı achık eshikter künündö ana 3 000dey okuuchu kelip kördü.", "ru": "Жаркыну исполнилось шестнадцать. На весенний день открытых дверей Государственного конного завода Таласа к нему приехали около 3000 школьников."}},
+  {"date": "2026-03-11", "src": {"en": "IradOne", "ir": "IradOne", "ru": "IradOne"},
+   "text": {"en": "On the 34th anniversary of the Republic, Zharkyn again leads the Irad Day parade on Central Square in the Governor's place. The Lieutenant Governor takes the salute.", "ir": "Respublikanın 34 jıldıgında Jarkın Borborduk ayanttagı Irad künündögü paraddı kayra Gubernatordun ordunda bashtadı. Saluttu Vitse-gubernator kabıl aldı.", "ru": "В 34-ю годовщину Республики Жаркын вновь возглавил парад в День Ирада на Центральной площади вместо губернатора. Парад принимал вице-губернатор."}},
+  {"date": "2025-03-11", "src": {"en": "IradOne", "ir": "IradOne", "ru": "IradOne"},
+   "text": {"en": "Zharkyn leads the Irad Day parade in the Governor's place, saddled with the Governor's parade saddle and led in hand by his groom, while the Governor follows the day from his retreat.", "ir": "Jarkın Irad künündögü paraddı Gubernatordun ordunda bashtadı: üstündö Gubernatordun parad eeri, anı atkosh jetelep jürdü; Gubernator kündü dem aluu jayınan karap turdu.", "ru": "Жаркын возглавил парад в День Ирада вместо губернатора: под парадным седлом губернатора, в поводу у своего конюха. Губернатор следил за праздником с места отдыха."}},
+  {"date": "2024", "src": {"en": "National Akyel Studbook", "ir": "Akyeldin uluttuk tukum kitebi", "ru": "Национальная племенная книга акъель"},
+   "text": {"en": "The Studbook's annual report for 2023 credits Zharkyn with 112 registered foals.", "ir": "Tukum kitebinin 2023-jılkı jıldık otchötu boyuncha Jarkındın 112 kattalgan kulunu bar.", "ru": "По годовому отчёту племенной книги за 2023 год, у Жаркына 112 зарегистрированных жеребят."}},
+  {"date": "2019-03-11", "src": {"en": "IradOne", "ir": "IradOne", "ru": "IradOne"},
+   "text": {"en": "Zharkyn leads the parade of matched golden Akyels across Central Square on the 27th anniversary of the Republic.", "ir": "Respublikanın 27 jıldıgında Jarkın Borborduk ayant arkıluu birdey altın akyelderdin paradın bashtadı.", "ru": "В 27-ю годовщину Республики Жаркын провёл парад одномастных золотых акъелей по Центральной площади."}},
+  {"date": "2018-03-11", "src": {"en": "Office of the Governor", "ir": "Gubernatordun apparatı", "ru": "Аппарат губернатора"},
+   "text": {"en": "The Irad Day portrait of the Governor holding Zharkyn's bridle is released, and appears on billboards across the Zone and on a postage stamp.", "ir": "Gubernatordun Jarkındın jügönün karmap turgan Irad künündögü portreti jarıyalandı; al Zona boyuncha bilborddordo jana pochta markasında chıktı.", "ru": "Опубликован портрет губернатора, держащего под уздцы Жаркына, ко Дню Ирада; он появился на билбордах по всей Зоне и на почтовой марке."}},
+  {"date": "2015", "src": {"en": "National Akyel Studbook", "ir": "Akyeldin uluttuk tukum kitebi", "ru": "Национальная племенная книга акъель"},
+   "text": {"en": "Zharkyn completes the endurance trials and is approved as a breeding stallion.", "ir": "Jarkın chıdamkaylık sınoolorunan ötüp, tukum aygırı katarı bekitildi.", "ru": "Жаркын прошёл испытания на выносливость и утверждён племенным жеребцом."}},
+  {"date": "2014-03-11", "src": {"en": "Irad State Hippodrome", "ir": "Irad mamlekettik ippodromu", "ru": "Государственный ипподром Ирада"},
+   "text": {"en": "Zharkyn wins the 40-km at chabysh at the Irad Day meeting.", "ir": "Jarkın Irad künündögü 40 chakırımdık at chabıshta jeñdi.", "ru": "Жаркын выиграл 40-километровый ат чабыш на скачках Дня Ирада."}}
+ ]
+}

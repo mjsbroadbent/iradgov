@@ -65,6 +65,7 @@
     ["flag", "/flag-status.html"], ["symbols", "/symbols.html"], ["contact", "/contact.html"]
   ];
   var NAVPAGE = { release: "press" };
+  var EXTRA = { zharkyn: "/zharkyn.html" };
 
   function chrome() {
     var top = $("#top"), bottom = $("#bottom");
@@ -73,9 +74,10 @@
       top.innerHTML =
         '<a class="skip" href="#main">' + esc(t("skip")) + '</a>' +
         '<div class="util"><div class="wrap"><div class="left"><span>' + esc(t("utilGov")) + '</span><span class="clock" id="clock"></span></div>' +
+        '<div class="right"><a class="flagst" id="flagSt" href="/flag-status.html">' + flagPict(false) + '<span class="fs-k">' + esc(t("hdrFlag")) + '</span><span class="fs-v"></span></a>' +
         '<div class="langs" role="group" aria-label="' + esc(t("langLabel")) + '">' +
         LANGS.map(function (l) { return '<button type="button" data-lang="' + l + '" aria-pressed="' + (l === LANG) + '" lang="' + I.htmlLang[l] + '">' + esc(I.langs[l]) + "</button>"; }).join("") +
-        "</div></div></div>" +
+        "</div></div></div></div>" +
         '<div class="mast"><div class="wrap"><a class="home-link" href="/"><img class="emb" src="/assets/emblem.svg" alt="' + esc(t("embAlt")) + '" width="70" height="70">' +
         '<div class="ttl"><div class="k">' + esc(t("mastK")) + '</div><div class="n">' + esc(t("mastN")) + '</div><div class="s">' + esc(t("mastS")) + "</div></div></a>" +
         '<a class="eirad" href="' + SERVICES + '">' + t("eiradBtn") + "</a></div></div>" +
@@ -90,6 +92,7 @@
         b.addEventListener("click", function () { setLang(b.getAttribute("data-lang")); });
       });
       tick();
+      flagHeader();
     }
     if (bottom) {
       bottom.innerHTML =
@@ -100,12 +103,27 @@
         ["governor", "ltgov", "admin", "regions", "decrees"].map(function (k) { return '<li><a href="' + navHref(k) + '">' + esc(t("nav_" + k)) + "</a></li>"; }).join("") +
         "</ul></div>" +
         "<div><h4>" + esc(t("footMore")) + '</h4><ul><li><a href="' + SERVICES + '">' + esc(t("footServices")) + "</a></li>" +
-        ["press", "holidays", "symbols", "contact"].map(function (k) { return '<li><a href="' + navHref(k) + '">' + esc(t("nav_" + k)) + "</a></li>"; }).join("") +
+        ["press", "holidays", "symbols", "zharkyn", "contact"].map(function (k) { return '<li><a href="' + navHref(k) + '">' + esc(t("nav_" + k)) + "</a></li>"; }).join("") +
         "</ul></div></div>" +
         '<div class="fine"><span>' + esc(t("footCopy", { y: iradNow().getFullYear() })) + "</span><span>" + esc(t("footTime")) + "</span></div></div></footer>";
     }
   }
-  function navHref(k) { for (var i = 0; i < NAV.length; i++) if (NAV[i][0] === k) return NAV[i][1]; return "/"; }
+  function navHref(k) { if (EXTRA[k]) return EXTRA[k]; for (var i = 0; i < NAV.length; i++) if (NAV[i][0] === k) return NAV[i][1]; return "/"; }
+  /* flag status in the utility bar: a flag on its staff, lowered on half-mast days (data/flag.json, cached) */
+  function flagPict(half) {
+    var y = half ? 7.5 : 2;
+    return '<svg class="fs-ic" viewBox="0 0 16 18" width="16" height="18" aria-hidden="true"><path d="M2.5 2.2V17.6" stroke="#d9dde4" stroke-width="1.3"/><circle cx="2.5" cy="1.5" r="1.3" fill="#e9c46a"/>' +
+      '<rect x="3.4" y="' + y + '" width="11.4" height="7" fill="#c8202c" stroke="#fff6d5" stroke-width=".7"/><circle cx="9.1" cy="' + (y + 3.5) + '" r="1.3" fill="#fff6d5"/><path d="M.6 17.6h4" stroke="#d9dde4" stroke-width="1.3"/></svg>';
+  }
+  function flagHeader() {
+    getJSON("/data/flag.json").then(function (data) {
+      var el = $("#flagSt"); if (!el) return;
+      var half = flagState(data, iradToday()).half, v = t(half ? "hdrHalf" : "hdrFull");
+      el.innerHTML = flagPict(half) + '<span class="fs-k">' + esc(t("hdrFlag")) + ':</span><span class="fs-v">' + esc(v) + "</span>";
+      el.classList.toggle("is-half", half);
+      el.setAttribute("aria-label", t("hdrFlag") + ": " + v);
+    }).catch(function () {});
+  }
   var tickTimer;
   function tick() {
     var el = $("#clock"); if (!el) return;
@@ -121,6 +139,11 @@
       if (!origHTML.has(el)) origHTML.set(el, el.innerHTML);
       var k = el.getAttribute("data-i18n");
       el.innerHTML = LANG === "en" || P[k] == null ? origHTML.get(el) : P[k];
+    });
+    $$("[data-i18n-alt]").forEach(function (el) {
+      if (!el.hasAttribute("data-alt-en")) el.setAttribute("data-alt-en", el.getAttribute("alt") || "");
+      var k = el.getAttribute("data-i18n-alt");
+      el.setAttribute("alt", LANG === "en" || P[k] == null ? el.getAttribute("data-alt-en") : P[k]);
     });
     document.documentElement.lang = I.htmlLang[LANG];
     var tk = document.body.getAttribute("data-title");
@@ -343,7 +366,7 @@
       until: "{d} kün batkanga cheyin.", reasonK: "Sebebi", scopeK: "Kayda", refK: "Negiz",
       nextK: "Kiyinki jarım machta künü", standingH: "Jıl sayın jarım machtada", ordersH: "Bildirüülör", dates: "Kündör", why: "Sebep",
       protoH: "Mamlekettik tuunu kötörüü",
-      proto: "<p>Mamlekettik tuu 1993-jılkı Mamlekettik simvoldor jönündögü mıyzam boyuncha kötörülöt. Al kün sayın Ökmöt üyündö, Mejliste, aymak jana shaar administratsiyalarında, sottordo, Jandarm posttorunda, okuu jılında mekteptерde jelbireyt. Jarandar, ishkanalar jana uyumdar mayram künderi tuu kötörüügö chakırılat.</p><p>Jarım machta künderi tuu adegende machtanın uchuna tez kötörülöt, andan kiyin jay jarımına cheyin tüshürülöt; kün batkanda alınar aldında kayra uchuna kötörülöt. Tuunu tüshürüügö mümkün bolboso, machtanın uchuna kara lenta baylanat. Mamlekettik tuudan biyik bashka tuu kötörülböyt; anın janındagı tuular da kosho tüshürülöt.</p><p>Jarım machta künderin Mayram jana eskerüü künderi jönündögü mıyzam jana Gubernatordun bildirüüsü belgileyt. Bildirüülördü Gubernatordun apparatının press-kızmatı jarıyalayt, IradOne okuyt.</p>",
+      proto: "<p>Mamlekettik tuu 1993-jılkı Mamlekettik simvoldor jönündögü mıyzam boyuncha kötörülöt. Al kün sayın Ökmöt üyündö, Mejliste, aymak jana shaar administratsiyalarında, sottordo, Jandarm posttorunda, okuu jılında mektepterde jelbireyt. Jarandar, ishkanalar jana uyumdar mayram künderi tuu kötörüügö chakırılat.</p><p>Jarım machta künderi tuu adegende machtanın uchuna tez kötörülöt, andan kiyin jay jarımına cheyin tüshürülöt; kün batkanda alınar aldında kayra uchuna kötörülöt. Tuunu tüshürüügö mümkün bolboso, machtanın uchuna kara lenta baylanat. Mamlekettik tuudan biyik bashka tuu kötörülböyt; anın janındagı tuular da kosho tüshürülöt.</p><p>Jarım machta künderin Mayram jana eskerüü künderi jönündögü mıyzam jana Gubernatordun bildirüüsü belgileyt. Bildirüülördü Gubernatordun apparatının press-kızmatı jarıyalayt, IradOne okuyt.</p>",
       contactH: "Suroolor", contact: "Protokol bölümü, Gubernatordun apparatı, Ökmöt üyü, Borborduk ayant, Talas. +996-39-2-21-10-12. <a href=\"mailto:info@iradgov.org\">info@iradgov.org</a>",
       staffAlt: "Machtadagı mamlekettik tuu" },
     ru: { h1: "Положение флага", full: "Поднят полностью", half: "Приспущен",
@@ -403,6 +426,36 @@
         "</tbody></table></div>" +
         '<div class="grid g-2" style="margin-top:24px"><div class="card"><h3>' + esc(ft("protoH")) + "</h3>" + ft("proto") + '</div><div class="card"><h3>' + esc(ft("contactH")) + "</h3><p>" + ft("contact") + "</p></div></div>";
     }).catch(function () { failBox(el); });
+  };
+
+  /* Zharkyn, the Governor's horse: data/zharkyn.json (yearly appearances, news) */
+  function lastSatApr(y) { var d = new Date(Date.UTC(y, 3, 30)); while (d.getUTCDay() !== 6) d.setUTCDate(d.getUTCDate() - 1); return iso(d); }
+  function appDate(a, y) { return a.rule === "lastSatApr" ? lastSatApr(y) : y + "-" + a.md; }
+  function daysBetween(a, b) { return Math.round((Date.parse(b + "T00:00:00Z") - Date.parse(a + "T00:00:00Z")) / 86400000); }
+  pages.zharkyn = function () {
+    var apps = $("#zhApps"), news = $("#zhNews"), nx = $("#zhNext");
+    getJSON("/data/zharkyn.json").then(function (d) {
+      var today = iradToday(), y = +today.slice(0, 4), next = null;
+      (d.appearances || []).forEach(function (a) {
+        var dt = appDate(a, y); if (dt < today) dt = appDate(a, y + 1);
+        if (!next || dt < next.date) next = { date: dt, a: a };
+      });
+      if (next && nx) {
+        var n = daysBetween(today, next.date);
+        nx.innerHTML = '<div class="k">' + esc(t("zhNextK")) + '</div><div class="d">' + esc(fmtDate(next.date)) + ' <span class="muted">(' + esc(n === 0 ? t("zhTodayW") : n === 1 ? t("zhTomorrow") : t("zhInDays", { n: n })) + ")</span></div>" +
+          "<div><strong>" + esc(tri(next.a.name)) + "</strong> · " + esc(tri(next.a.place)) + "</div>";
+      }
+      apps.classList.remove("loading");
+      apps.innerHTML = '<ul class="zh-apps">' + (d.appearances || []).map(function (a) {
+        var when = a.rule === "lastSatApr" ? t("zhLastSat") : t("zhYearly", { d: fmtDate(y + "-" + a.md, true) });
+        return '<li><div class="when">' + esc(when) + "</div><div><strong>" + esc(tri(a.name)) + '</strong><br><span class="small">' + esc(tri(a.place)) + "</span><br>" + esc(tri(a.what)) + "</div></li>";
+      }).join("") + "</ul>";
+      news.classList.remove("loading");
+      news.innerHTML = '<ul class="plist">' + (d.news || []).slice().sort(sortByDate).map(function (x) {
+        var when = x.date.length === 4 ? x.date : fmtDate(x.date);
+        return '<li><div class="meta"><time datetime="' + esc(x.date) + '">' + esc(when) + "</time><span>" + esc(tri(x.src)) + '</span></div><p class="s" style="margin:0">' + esc(tri(x.text)) + "</p></li>";
+      }).join("") + "</ul>";
+    }).catch(function () { failBox(apps); failBox(news); });
   };
 
   function render() {
