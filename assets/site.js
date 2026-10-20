@@ -109,7 +109,7 @@
         '<div class="langs" role="group" aria-label="' + esc(t("langLabel")) + '">' +
         LANGS.map(function (l) { return '<button type="button" data-lang="' + l + '" aria-pressed="' + (l === LANG) + '" lang="' + I.htmlLang[l] + '">' + esc(I.langs[l]) + "</button>"; }).join("") +
         "</div></div></div></div>" +
-        '<div class="mast"><div class="wrap"><a class="home-link" href="/"><img class="emb" src="/assets/emblem.svg" alt="' + esc(t("embAlt")) + '" width="70" height="70">' +
+        '<div class="mast"><div class="wrap"><a class="home-link" href="/"><img class="emb" src="/assets/state-emblem-160.png" alt="' + esc(t("embAlt")) + '" width="76" height="76">' +
         '<div class="ttl"><div class="k">' + esc(t("mastK")) + '</div><div class="n">' + esc(t("mastN")) + '</div><div class="s">' + esc(t("mastS")) + "</div></div></a>" +
         '<a class="eirad" href="' + SERVICES + '">' + t("eiradBtn") + "</a></div></div>" +
         '<nav class="nav" aria-label="' + esc(t("navLabel")) + '"><div class="wrap"><button class="burger" type="button" aria-expanded="false"><span class="bars"></span>' + esc(t("menu")) + "</button><ul class=\"menu\">" + navHTML(cur) +

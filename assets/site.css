@@ -1,16 +1,22 @@
 /* Office of the Governor of the ISEZ: official portal */
 :root {
-  --crimson: #8e1b26;
-  --crimson-deep: #6b121b;
-  --crimson-wash: #f6e9e6;
+  /* crimson, gold and blue of the State Emblem (2009) */
+  --crimson: #a8101a;
+  --crimson-deep: #6d0710;
+  --crimson-wash: #f8e7e6;
   --ink: #1c222c;
   --ink-2: #3a4250;
   --muted: #646b78;
   --line: #ddd7cc;
   --paper: #fbfaf7;
   --stone: #f2eee6;
-  --gold: #b88a2e;
-  --gold-soft: #e9d7a8;
+  --gold: #d4a72c;
+  --gold-soft: #ecc75a;
+  --gold-deep: #a87d14;
+  --gold-ink: #6b4c06;
+  --blue: #1d5296;
+  --blue-deep: #123a70;
+  --blue-wash: #e9eff7;
   --ivory: #fff6d5;
   --ok: #2f6b3f;
   --serif: "Noto Serif", Georgia, "Times New Roman", serif;
@@ -47,7 +53,7 @@ p { margin: 0 0 1em; }
 /* masthead */
 .mast { background: #fff; border-bottom: 1px solid var(--line); }
 .mast .wrap { display: flex; align-items: center; gap: 18px; padding-top: 16px; padding-bottom: 16px; }
-.mast .emb { width: 70px; height: 70px; flex: none; }
+.mast .emb { width: 76px; height: 76px; flex: none; }
 .mast .ttl { flex: 1; min-width: 0; }
 .mast .ttl .k { font-size: .78rem; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
 .mast .ttl .n { font-family: var(--serif); font-size: 1.55rem; font-weight: 600; color: var(--crimson-deep); line-height: 1.2; }
@@ -80,7 +86,7 @@ p { margin: 0 0 1em; }
 .nav .burger span.bars { display: inline-block; width: 18px; height: 2px; background: currentColor; box-shadow: 0 -6px 0 currentColor, 0 6px 0 currentColor; }
 
 /* ornament: koshkar muyuz band */
-.orn { height: 14px; background: url("orn.svg") repeat-x center / auto 14px; opacity: .55; }
+.orn { height: 14px; background: url("orn.svg") repeat-x center / auto 14px; opacity: .6; }
 
 /* layout */
 main { display: block; }
@@ -95,13 +101,14 @@ main { display: block; }
 .card { background: #fff; border: 1px solid var(--line); padding: 20px 22px; }
 .card > h2:first-child, .card > h3:first-child { margin-top: 0; }
 .card.tone { background: var(--stone); }
-.sect-h { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; border-bottom: 2px solid var(--crimson); margin: 34px 0 14px; padding-bottom: 6px; }
+.sect-h { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; border-bottom: 2px solid var(--blue); margin: 34px 0 14px; padding-bottom: 6px; }
 .sect-h h2 { margin: 0; font-size: 1.25rem; }
 .sect-h a { font-size: .9rem; white-space: nowrap; }
 .muted { color: var(--muted); }
 .small { font-size: .88rem; }
 .tag { display: inline-block; font-size: .72rem; letter-spacing: .06em; text-transform: uppercase; color: var(--crimson-deep); background: var(--crimson-wash); padding: 2px 7px; border-radius: 2px; }
-.tag.gold { background: #f6edd6; color: #7a5a14; }
+.tag.gold { background: #f6edd6; color: var(--gold-ink); }
+.tag.blue { background: var(--blue-wash); color: var(--blue-deep); }
 .tag.grey { background: #ececec; color: #4a4f57; }
 
 /* feature (LG activity) */
@@ -141,7 +148,7 @@ main { display: block; }
 .quick .ic { width: 26px; height: 26px; flex: none; color: var(--crimson); }
 
 /* notices */
-.notice { border-left: 4px solid var(--gold); background: #fff; padding: 12px 16px; margin-bottom: 10px; border-top: 1px solid var(--line); border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.notice { border-left: 4px solid var(--blue); background: #fff; padding: 12px 16px; margin-bottom: 10px; border-top: 1px solid var(--line); border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .notice .meta { font-size: .8rem; color: var(--muted); }
 .notice .t { font-weight: 600; margin: 2px 0; }
 .notice p { margin: 0; font-size: .93rem; }
@@ -172,7 +179,7 @@ main { display: block; }
 .tbl-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 table.data { width: 100%; border-collapse: collapse; background: #fff; font-size: .94rem; }
 table.data th, table.data td { border-bottom: 1px solid var(--line); padding: 9px 10px; text-align: left; vertical-align: top; }
-table.data thead th { background: var(--stone); font-weight: 600; color: var(--ink-2); border-bottom: 2px solid var(--line); }
+table.data thead th { background: var(--blue); font-weight: 600; color: #fff; border-bottom: 2px solid var(--blue-deep); }
 table.data td.num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
 table.data tr.past td { color: var(--muted); }
 table.data tr.next td { background: #fbf4e2; }
@@ -186,7 +193,7 @@ table.data tr.next td { background: #fbf4e2; }
 
 /* documents */
 .doc { background: #fff; border: 1px solid var(--line); margin-bottom: 14px; }
-.doc header { padding: 14px 18px; border-bottom: 1px solid var(--line); background: var(--stone); }
+.doc header { padding: 14px 18px; border-bottom: 1px solid var(--line); border-top: 3px solid var(--blue); background: var(--stone); }
 .doc .no { font-size: .82rem; color: var(--crimson-deep); font-weight: 600; letter-spacing: .03em; }
 .doc h3 { margin: 4px 0 2px; font-size: 1.08rem; }
 .doc .body { padding: 14px 18px; }
@@ -204,7 +211,7 @@ table.data tr.next td { background: #fbf4e2; }
 .release .meta { color: var(--muted); font-size: .88rem; margin-bottom: 14px; display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
 .release .body p { max-width: 760px; }
 .release .contact { font-size: .86rem; color: var(--muted); border-top: 1px solid var(--line); margin-top: 22px; padding-top: 12px; }
-.trnote { background: #f6edd6; border: 1px solid #ead9a9; padding: 8px 12px; font-size: .86rem; color: #5e4510; margin-bottom: 14px; }
+.trnote { background: var(--blue-wash); border: 1px solid #c9d6ea; border-left: 4px solid var(--blue); padding: 8px 12px; font-size: .86rem; color: var(--blue-deep); margin-bottom: 14px; }
 .pager { display: flex; justify-content: space-between; gap: 14px; margin-top: 18px; font-size: .9rem; }
 
 /* symbols */
@@ -218,7 +225,7 @@ table.data tr.next td { background: #fbf4e2; }
 .kv dd { margin: 0; }
 
 /* footer */
-.foot { background: var(--ink); color: #c9ced7; font-size: .9rem; margin-top: 0; }
+.foot { background: var(--blue-deep); color: #d3dae6; font-size: .9rem; margin-top: 0; border-top: 4px solid var(--gold); }
 .foot .wrap { padding-top: 34px; padding-bottom: 24px; }
 .foot .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 28px; }
 .foot h4 { color: #fff; font-family: var(--sans); font-size: .85rem; letter-spacing: .1em; text-transform: uppercase; margin: 0 0 10px; }
@@ -226,7 +233,7 @@ table.data tr.next td { background: #fbf4e2; }
 .foot a:hover { text-decoration: underline; }
 .foot ul { list-style: none; margin: 0; padding: 0; }
 .foot li { margin: 0 0 6px; }
-.foot .fine { border-top: 1px solid #ffffff22; margin-top: 24px; padding-top: 14px; font-size: .8rem; color: #9aa1ad; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.foot .fine { border-top: 1px solid #ffffff2e; margin-top: 24px; padding-top: 14px; font-size: .8rem; color: #b9c3d3; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
 .foot .femb { display: flex; gap: 12px; align-items: center; margin-bottom: 10px; }
 .foot .femb img { width: 42px; }
 
@@ -297,11 +304,12 @@ table.flag-tbl td.num { width: 13em; }
 
 /* flag status in the utility bar */
 .util .right { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
-.util a.flagst { display: inline-flex; align-items: center; gap: 6px; color: #d9dde4; text-decoration: none; white-space: nowrap; }
+.util a.flagst { display: inline-flex; align-items: center; gap: 6px; color: #e3e9f3; text-decoration: none; white-space: nowrap; background: var(--blue); padding: 2px 9px 2px 7px; border-radius: 2px; }
 .util a.flagst:hover .fs-v { text-decoration: underline; }
 .flagst .fs-ic { width: 16px; height: 18px; flex: none; }
 .flagst .fs-v { color: #fff; font-weight: 600; }
 .flagst.is-half .fs-v { color: var(--gold-soft); }
+.util a.flagst:hover { background: #24609f; }
 @media (max-width: 680px) { .flagst .fs-k { display: none; } .util .right { gap: 8px; } }
 
 /* Zharkyn, the Governor's horse */
