@@ -13,7 +13,11 @@ No build step. Each page is a plain HTML file with its English text inline; `ass
 menu and footer, switches language and renders the data-driven parts.
 
 - Pages: `index.html`, `governor.html`, `lieutenant-governor.html`, `administration.html`, `regions.html`,
-  `press.html`, `release.html?id=<id>`, `decrees.html`, `holidays.html`, `symbols.html`, `contact.html`, `404.html`.
+  `press.html`, `release.html?id=<id>`, `decrees.html`, `holidays.html`, `symbols.html`, `contact.html`, `404.html`, `flag-status.html`, `zharkyn.html`,
+  `first-lady.html`.
+- Menu: the `NAV` array in `site.js`; an entry is `[key, href]` or a drop-down group `{ g: key, items: [...] }`
+  (label `navG_<key>`). Labels are `nav_<key>`; an optional `navS_<key>` gives a shorter label for the menu bar
+  only. Keep the bar on one row at 1366 px in all three languages.
 - `assets/i18n.js`: `ui` (interface strings, en/ir/ru) and `pages` (Iradi and Russian text for every `data-i18n`
   key in the HTML; the English stays in the HTML). Iradi is the Kyrgyz-based Latin orthography (ı ö ü ñ j ch sh).
   Language is remembered in `localStorage` `iradgov_lang`; `?lang=ru` also works.
@@ -70,3 +74,10 @@ recorded at the residence, broadcast on IradOne.
 
 `python3 -m http.server` in this folder and look at every page in all three languages at desktop and phone
 widths. The site must make no requests other than its own files, Google Fonts and the GET of the numbers file.
+
+## The First Lady and the Children's Fund
+
+`data/first-lady.json`: `recurring` (yearly events: `md` month-day, optional `to`, or `rule` `secondSatOct` /
+`lastSatDec`) and `events` (`date`, optional `to`, `rec` = recurring id whose name and place it inherits, or its own
+`name`/`place`; `for`, `som` with `amt` `raised`|`given`, `report`; all text en/ir/ru). Upcoming events are those not
+yet over in Irad Time. Official line only: no family politics, and match what IradOne and the Herald printed.

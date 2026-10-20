@@ -59,13 +59,44 @@
   };
 
   /* ---------- chrome ---------- */
+  /* main menu: [key, href] or a group { g: key, items: [[key, href], ...] } (a drop-down; a list of its own in the phone menu) */
   var NAV = [
-    ["home", "/"], ["governor", "/governor.html"], ["ltgov", "/lieutenant-governor.html"], ["admin", "/administration.html"],
-    ["regions", "/regions.html"], ["press", "/press.html"], ["decrees", "/decrees.html"], ["holidays", "/holidays.html"],
-    ["flag", "/flag-status.html"], ["symbols", "/symbols.html"], ["contact", "/contact.html"]
+    ["home", "/"], ["governor", "/governor.html"], ["firstlady", "/first-lady.html"], ["ltgov", "/lieutenant-governor.html"], ["zharkyn", "/zharkyn.html"],
+    { g: "gov", items: [["admin", "/administration.html"], ["regions", "/regions.html"]] },
+    ["press", "/press.html"], ["decrees", "/decrees.html"],
+    { g: "state", items: [["symbols", "/symbols.html"], ["flag", "/flag-status.html"], ["holidays", "/holidays.html"]] },
+    ["contact", "/contact.html"]
   ];
   var NAVPAGE = { release: "press" };
-  var EXTRA = { zharkyn: "/zharkyn.html" };
+  var EXTRA = {};
+  var CARET = '<svg class="caret" viewBox="0 0 10 6" width="10" height="6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>';
+  function navLabel(k) { var s = (I.ui[LANG] || {})["navS_" + k]; return s != null ? s : t("nav_" + k); }
+  function navItem(n, cur) { return '<li><a href="' + n[1] + '"' + (n[0] === cur ? ' aria-current="page"' : "") + ">" + esc(navLabel(n[0])) + "</a></li>"; }
+  function navHTML(cur) {
+    return NAV.map(function (n) {
+      if (!n.g) return navItem(n, cur);
+      var here = n.items.some(function (x) { return x[0] === cur; });
+      return '<li class="dd' + (here ? " here" : "") + '"><button type="button" class="dd-btn" aria-expanded="false" aria-controls="dd-' + n.g + '">' + esc(t("navG_" + n.g)) + CARET + "</button>" +
+        '<ul class="sub" id="dd-' + n.g + '">' + n.items.map(function (x) { return navItem(x, cur); }).join("") + "</ul></li>";
+    }).join("");
+  }
+  function closeDD(except) { $$(".nav .dd.open").forEach(function (d) { if (d !== except) { d.classList.remove("open"); $(".dd-btn", d).setAttribute("aria-expanded", "false"); } }); }
+  var ddBound = false;
+  function bindDD(top) {
+    $$(".dd-btn", top).forEach(function (b) {
+      b.addEventListener("click", function (e) {
+        var d = b.parentNode, open = !d.classList.contains("open");
+        closeDD(d); d.classList.toggle("open", open); b.setAttribute("aria-expanded", open); e.stopPropagation();
+      });
+    });
+    if (ddBound) return; ddBound = true;
+    document.addEventListener("click", function (e) { if (!e.target.closest || !e.target.closest(".nav .dd")) closeDD(); });
+    document.addEventListener("keydown", function (e) {
+      if (e.key !== "Escape") return;
+      var d = $(".nav .dd.open"); if (!d) return;
+      closeDD(); $(".dd-btn", d).focus();
+    });
+  }
 
   function chrome() {
     var top = $("#top"), bottom = $("#bottom");
@@ -81,13 +112,13 @@
         '<div class="mast"><div class="wrap"><a class="home-link" href="/"><img class="emb" src="/assets/emblem.svg" alt="' + esc(t("embAlt")) + '" width="70" height="70">' +
         '<div class="ttl"><div class="k">' + esc(t("mastK")) + '</div><div class="n">' + esc(t("mastN")) + '</div><div class="s">' + esc(t("mastS")) + "</div></div></a>" +
         '<a class="eirad" href="' + SERVICES + '">' + t("eiradBtn") + "</a></div></div>" +
-        '<nav class="nav" aria-label="' + esc(t("navLabel")) + '"><div class="wrap"><button class="burger" type="button" aria-expanded="false"><span class="bars"></span>' + esc(t("menu")) + "</button><ul>" +
-        NAV.map(function (n) { return '<li><a href="' + n[1] + '"' + (n[0] === cur ? ' aria-current="page"' : "") + ">" + esc(t("nav_" + n[0])) + "</a></li>"; }).join("") +
+        '<nav class="nav" aria-label="' + esc(t("navLabel")) + '"><div class="wrap"><button class="burger" type="button" aria-expanded="false"><span class="bars"></span>' + esc(t("menu")) + "</button><ul class=\"menu\">" + navHTML(cur) +
         "</ul></div></nav><div class=\"orn\" aria-hidden=\"true\"></div>";
       $(".burger", top).addEventListener("click", function () {
         var nav = $(".nav", top), open = !nav.classList.contains("open");
         nav.classList.toggle("open", open); this.setAttribute("aria-expanded", open);
       });
+      bindDD(top);
       $$("[data-lang]", top).forEach(function (b) {
         b.addEventListener("click", function () { setLang(b.getAttribute("data-lang")); });
       });
@@ -100,15 +131,22 @@
         '<div><div class="femb"><img src="/assets/emblem.svg" alt="" width="42" height="42"><strong style="color:#fff">' + esc(t("mastN")) + "</strong></div>" +
         '<address class="addrbox" style="font-style:normal">' + t("footAddr") + "</address></div>" +
         "<div><h4>" + esc(t("footGov")) + "</h4><ul>" +
-        ["governor", "ltgov", "admin", "regions", "decrees"].map(function (k) { return '<li><a href="' + navHref(k) + '">' + esc(t("nav_" + k)) + "</a></li>"; }).join("") +
+        ["governor", "firstlady", "ltgov", "admin", "regions", "decrees"].map(function (k) { return '<li><a href="' + navHref(k) + '">' + esc(t("nav_" + k)) + "</a></li>"; }).join("") +
         "</ul></div>" +
         "<div><h4>" + esc(t("footMore")) + '</h4><ul><li><a href="' + SERVICES + '">' + esc(t("footServices")) + "</a></li>" +
-        ["press", "holidays", "symbols", "zharkyn", "contact"].map(function (k) { return '<li><a href="' + navHref(k) + '">' + esc(t("nav_" + k)) + "</a></li>"; }).join("") +
+        ["press", "holidays", "flag", "symbols", "zharkyn", "contact"].map(function (k) { return '<li><a href="' + navHref(k) + '">' + esc(t("nav_" + k)) + "</a></li>"; }).join("") +
         "</ul></div></div>" +
         '<div class="fine"><span>' + esc(t("footCopy", { y: iradNow().getFullYear() })) + "</span><span>" + esc(t("footTime")) + "</span></div></div></footer>";
     }
   }
-  function navHref(k) { if (EXTRA[k]) return EXTRA[k]; for (var i = 0; i < NAV.length; i++) if (NAV[i][0] === k) return NAV[i][1]; return "/"; }
+  function navHref(k) {
+    if (EXTRA[k]) return EXTRA[k];
+    for (var i = 0; i < NAV.length; i++) {
+      if (NAV[i][0] === k) return NAV[i][1];
+      if (NAV[i].g) for (var j = 0; j < NAV[i].items.length; j++) if (NAV[i].items[j][0] === k) return NAV[i].items[j][1];
+    }
+    return "/";
+  }
   /* flag status in the utility bar: a flag on its staff, lowered on half-mast days (data/flag.json, cached) */
   function flagPict(half) {
     var y = half ? 7.5 : 2;
@@ -147,7 +185,7 @@
     });
     document.documentElement.lang = I.htmlLang[LANG];
     var tk = document.body.getAttribute("data-title");
-    if (tk) document.title = (tk && t("title_" + tk) !== "title_" + tk ? t("title_" + tk) + " | " : "") + t("siteName");
+    if (tk) document.title = (t("title_" + tk) && t("title_" + tk) !== "title_" + tk ? t("title_" + tk) + " | " : "") + t("siteName");
   }
 
   function setLang(l) {
@@ -456,6 +494,63 @@
         return '<li><div class="meta"><time datetime="' + esc(x.date) + '">' + esc(when) + "</time><span>" + esc(tri(x.src)) + '</span></div><p class="s" style="margin:0">' + esc(tri(x.text)) + "</p></li>";
       }).join("") + "</ul>";
     }).catch(function () { failBox(apps); failBox(news); });
+  };
+
+  /* The First Lady: data/first-lady.json (yearly events of the Children's Fund, dated events with amounts) */
+  var SOM_USD = 8.4;
+  function fmtInt(n) { var s = String(Math.round(n)), sep = LANG === "en" ? "," : " "; return s.replace(/\B(?=(\d{3})+(?!\d))/g, sep); }
+  function money(som) { return t("flMoney", { s: fmtInt(som), u: fmtInt(Math.round(som / SOM_USD / 10) * 10) }); }
+  function nthSat(y, m, n) { var d = new Date(Date.UTC(y, m - 1, 1)); while (d.getUTCDay() !== 6) d.setUTCDate(d.getUTCDate() + 1); d.setUTCDate(d.getUTCDate() + 7 * (n - 1)); return iso(d); }
+  function lastSat(y, m) { var d = new Date(Date.UTC(y, m, 0)); while (d.getUTCDay() !== 6) d.setUTCDate(d.getUTCDate() - 1); return iso(d); }
+  function recDate(r, y) { return r.rule === "secondSatOct" ? nthSat(y, 10, 2) : r.rule === "lastSatDec" ? lastSat(y, 12) : y + "-" + r.md; }
+  function recEnd(r, y) { return r.to ? y + "-" + r.to : recDate(r, y); }
+  function recNext(r, today) { var y = +today.slice(0, 4); return recEnd(r, y) < today ? recDate(r, y + 1) : recDate(r, y); }
+  function recWhen(r) { return r.rule ? t("flRule_" + r.rule) : r.to ? fmtDate("2000-" + r.md, true) + "–" + fmtDate("2000-" + r.to, true) : fmtDate("2000-" + r.md, true); }
+  function evDates(e) { return e.to ? fmtDate(e.date, e.date.slice(0, 4) === e.to.slice(0, 4)) + " – " + fmtDate(e.to) : fmtDate(e.date); }
+  pages.firstlady = function () {
+    var up = $("#flUp"), past = $("#flPast"), ann = $("#flAnnual"), nx = $("#flNext");
+    getJSON("/data/first-lady.json").then(function (d) {
+      var today = iradToday(), R = {};
+      (d.recurring || []).forEach(function (r) { R[r.id] = r; });
+      var all = (d.events || []).map(function (e) {
+        var r = R[e.rec] || {};
+        return { e: e, r: r, name: e.name || r.name, place: e.place || r.place, end: e.to || e.date };
+      });
+      var item = function (x, upcoming) {
+        var e = x.e, amt = e.som != null ? '<span class="fl-amt"><span class="muted">' + esc(t(e.amt === "given" ? "flGiven" : "flRaised")) + ":</span> <b>" + esc(money(e.som)) + "</b></span>" : "";
+        var aid = e.for ? '<span><span class="muted">' + esc(t("flFor")) + ":</span> " + esc(tri(e.for)) + "</span>" : "";
+        return '<li class="fl-ev' + (upcoming ? " up" : "") + '"><div class="meta"><time datetime="' + esc(e.date) + '">' + esc(evDates(e)) + "</time>" +
+          (x.r.id ? '<span class="tag gold">' + esc(t("flAnnualTag")) + "</span>" : "") + "<span>" + esc(tri(x.place)) + "</span></div>" +
+          '<div class="t">' + esc(tri(x.name)) + "</div>" +
+          (aid || amt ? '<div class="fl-line">' + aid + amt + "</div>" : "") +
+          (e.report ? '<p class="s">' + esc(tri(e.report)) + "</p>" : upcoming && x.r.what ? '<p class="s">' + esc(tri(x.r.what)) + "</p>" : "") + "</li>";
+      };
+      var ups = all.filter(function (x) { return x.end >= today; }).sort(function (a, b) { return a.e.date < b.e.date ? -1 : 1; });
+      var olds = all.filter(function (x) { return x.end < today; }).sort(function (a, b) { return a.e.date < b.e.date ? 1 : -1; });
+      if (nx) {
+        var n0 = ups[0];
+        if (n0) {
+          var on = n0.e.date <= today, n = daysBetween(today, n0.e.date);
+          nx.innerHTML = '<div class="k">' + esc(t("flNextK")) + '</div><div class="d">' + esc(evDates(n0.e)) + ' <span class="muted">(' + esc(on ? t("flNow") : n === 1 ? t("zhTomorrow") : t("zhInDays", { n: n })) + ")</span></div>" +
+            "<div><strong>" + esc(tri(n0.name)) + "</strong> · " + esc(tri(n0.place)) + "</div>";
+        } else nx.style.display = "none";
+      }
+      up.classList.remove("loading");
+      up.innerHTML = ups.length ? '<ul class="plist fl-list">' + ups.map(function (x) { return item(x, true); }).join("") + "</ul>" : '<p class="muted">' + esc(t("flNone")) + "</p>";
+      var byYear = {};
+      olds.forEach(function (x) { var y = x.e.date.slice(0, 4); (byYear[y] = byYear[y] || []).push(x); });
+      past.classList.remove("loading");
+      past.innerHTML = Object.keys(byYear).sort().reverse().map(function (y) {
+        var tot = byYear[y].reduce(function (s, x) { return s + (x.e.som || 0); }, 0);
+        return '<details class="fl-year"' + (y === Object.keys(byYear).sort().reverse()[0] ? " open" : "") + "><summary><span class=\"y\">" + y + '</span><span class="muted small">' + esc(t("flYearSum", { n: byYear[y].length, s: money(tot) })) + "</span></summary>" +
+          '<ul class="plist fl-list">' + byYear[y].map(function (x) { return item(x, false); }).join("") + "</ul></details>";
+      }).join("");
+      ann.classList.remove("loading");
+      ann.innerHTML = '<div class="tbl-wrap"><table class="data fl-tbl"><thead><tr><th>' + esc(t("flWhenH")) + "</th><th>" + esc(t("flEventH")) + "</th><th>" + esc(t("flNextH")) + "</th></tr></thead><tbody>" +
+        (d.recurring || []).map(function (r) {
+          return "<tr><td>" + esc(recWhen(r)) + "</td><td><strong>" + esc(tri(r.name)) + '</strong><br><span class="small">' + esc(tri(r.place)) + '</span><br><span class="small muted">' + esc(tri(r.what)) + '</span></td><td class="num">' + esc(fmtDate(recNext(r, today))) + "</td></tr>";
+        }).join("") + "</tbody></table></div>";
+    }).catch(function () { failBox(up); failBox(past); failBox(ann); });
   };
 
   function render() {

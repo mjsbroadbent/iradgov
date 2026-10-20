@@ -1,0 +1,540 @@
+{
+ "_note": "The First Lady and the Children's Fund. recurring: yearly events (md = month-day, 'to' = end month-day; rule secondSatOct / lastSatDec). events: dated events; rec = recurring id (name/place inherited); som = amount in som, amt raised|given; to = last day of a multi-day event. Upcoming ones are those not yet over (Irad Time).",
+ "recurring": [
+  {
+   "id": "iradday",
+   "md": "03-11",
+   "name": {
+    "en": "Irad Day reception",
+    "ir": "Irad künündögü kabıl aluu",
+    "ru": "Приём в День Ирада"
+   },
+   "place": {
+    "en": "Government House, Central Square, Talas",
+    "ir": "Ökmöt üyü, Borborduk ayant, Talas",
+    "ru": "Дом правительства, Центральная площадь, Талас"
+   },
+   "what": {
+    "en": "Mrs Toktarova receives war widows and the families of soldiers who fell in the civil wars of 1992 and 2007; the Fund gives presents to their children and grandchildren. Broadcast by IradOne.",
+    "ir": "Toktarova hanım sogush jesirlerin jana 1992 jana 2007-jıldardagı jarandık sogushtarda kaza bolgon askerlerdin üy-bülölörün kabıl alat; fond alardın baldarına jana nebirelerine sovgo beret. IradOne körsötöt.",
+    "ru": "Госпожа Токтарова принимает вдов и семьи солдат, погибших в гражданских войнах 1992 и 2007 годов; фонд вручает подарки их детям и внукам. Трансляция IradOne."
+   }
+  },
+  {
+   "id": "childday",
+   "md": "06-01",
+   "name": {
+    "en": "Children's Day fair",
+    "ir": "Baldardı korgoo künündögü jarmañke",
+    "ru": "Ярмарка в День защиты детей"
+   },
+   "place": {
+    "en": "Central City Park, Talas, 10:00–17:00",
+    "ir": "Borborduk shaar parkı, Talas, 10:00–17:00",
+    "ru": "Центральный городской парк, Талас, 10:00–17:00"
+   },
+   "what": {
+    "en": "A fair on International Children's Day, the Fund's birthday: stalls, a puppet theatre, pony rides and a concert. Takings pay for places at the Archa summer camp.",
+    "ir": "Ellaralık baldardı korgoo künündö, fonddun tuulgan künündö jarmañke: dükön-tüktördö sooda, kuurchak teatrı, poni minüü jana kontsert. Tüshkön akcha Archa jaygı lagerine jollomolorgo jumshalat.",
+    "ru": "Ярмарка в Международный день защиты детей, день рождения фонда: лотки, кукольный театр, катание на пони и концерт. Выручка идёт на путёвки в летний лагерь «Арча»."
+   }
+  },
+  {
+   "id": "janyl",
+   "md": "08-23",
+   "name": {
+    "en": "Feast of St. Janyl charity concert",
+    "ir": "Iyık Janıl mayramının kayrımdüülük kontserti",
+    "ru": "Благотворительный концерт к празднику Святой Джаныл"
+   },
+   "place": {
+    "en": "Irad Palace of Art, Cathedral Hill, Iyık Janyl, on the eve of the feast",
+    "ir": "Irad körköm öner sarayı, Sobor döbösü, Iyık Janıl, mayramdın aldında",
+    "ru": "Ирадский дворец искусств, Соборный холм, Ийык-Джаныл, накануне праздника"
+   },
+   "what": {
+    "en": "An evening concert with the cathedral choir and young musicians of the southern districts. Proceeds go to rural health posts in Lower Naryn and Toktogul districts.",
+    "ir": "Sobor horu jana tüshtük aymaktardın jash muzıkanttarı menen kechki kontsert. Tüshkön akcha Tömönkü Narın jana Toktogul aymaktarının ayıl medpunkttarına berilet.",
+    "ru": "Вечерний концерт соборного хора и юных музыкантов южных районов. Сборы идут на сельские медпункты Нижненарынского и Токтогульского районов."
+   }
+  },
+  {
+   "id": "school",
+   "md": "09-01",
+   "name": {
+    "en": "Knowledge Day satchels",
+    "ir": "Bilim künündögü mektep sumkaları",
+    "ru": "Портфели ко Дню знаний"
+   },
+   "place": {
+    "en": "Schools in all six districts",
+    "ir": "Altı aymaktın mektepteri",
+    "ru": "Школы всех шести районов"
+   },
+   "what": {
+    "en": "Every first-year pupil in the village schools of the districts gets a satchel with exercise books, pencils, paints and a reading book in Iradi.",
+    "ir": "Aymaktardagı ayıl mekteplerinin ar bir birinchi klass okuuchusu däpter, karındash, boyok jana Irad tilindegi okuu kitebi salıngan sumka alat.",
+    "ru": "Каждый первоклассник сельских школ районов получает портфель с тетрадями, карандашами, красками и книгой для чтения на ирадском."
+   }
+  },
+  {
+   "id": "bazaar",
+   "rule": "secondSatOct",
+   "name": {
+    "en": "Autumn stall day",
+    "ir": "Küzgü sooda künü",
+    "ru": "Осенний благотворительный базар"
+   },
+   "place": {
+    "en": "Bazar-i Kalan, Old City, Talas, 9:00–14:00",
+    "ir": "Bazar-i Kalan, Eski shaar, Talas, 9:00–14:00",
+    "ru": "Базар-и Калан, Старый город, Талас, 9:00–14:00"
+   },
+   "what": {
+    "en": "Volunteers sell jams, boorsok, felt toys and knitted mittens at the Fund's stall in the Great Bazaar. Takings start the Warm Winter coat fund.",
+    "ir": "Iktıyarchılar Chong bazardagı fonddun dükönündö kıyam, boorsok, kiyiz oyunchuk jana tokulgan mee satat. Tüshkön akcha Jılıy kısh programmasının kurtka fonduna negiz salat.",
+    "ru": "Волонтёры продают варенье, боорсоки, войлочные игрушки и вязаные варежки за прилавком фонда на Большом базаре. Выручка открывает сбор на куртки «Тёплой зимы»."
+   }
+  },
+  {
+   "id": "toys",
+   "md": "12-01",
+   "to": "12-24",
+   "name": {
+    "en": "Ayaz Ata's Sack toy drive",
+    "ir": "«Ayaz Atanın kapchıgı» oyunchuk chogultuu",
+    "ru": "Сбор игрушек «Мешок Аяз-Ата»"
+   },
+   "place": {
+    "en": "Collection boxes in Bereke supermarkets and at the Fund's office",
+    "ir": "Bereke supermarketterindegi jana fonddun keñsesindegi kutular",
+    "ru": "Ящики в супермаркетах Bereke и в офисе фонда"
+   },
+   "what": {
+    "en": "New toys and books collected through December are given to every child in a state children's home or a children's ward on New Year's Eve.",
+    "ir": "Dekabr boyu chogultulgan jañı oyunchuktar jana kitepter Jañı jıl tünündö mamlekettik baldar üylöründögü jana baldar bölümdöründögü ar bir balaga berilet.",
+    "ru": "Новые игрушки и книги, собранные за декабрь, в новогоднюю ночь получает каждый ребёнок в государственных детских домах и детских отделениях."
+   }
+  },
+  {
+   "id": "ball",
+   "rule": "lastSatDec",
+   "name": {
+    "en": "New Year charity ball",
+    "ir": "Jañı jıldık kayrımdüülük balı",
+    "ru": "Новогодний благотворительный бал"
+   },
+   "place": {
+    "en": "International Diplomatic Hotel, Talas, 19:00",
+    "ir": "Ellaralık diplomatiyalık meymankana, Talas, 19:00",
+    "ru": "Международный дипломатический отель, Талас, 19:00"
+   },
+   "what": {
+    "en": "The Fund's main evening of the year: dinner, music and an auction of works given by Iradi artists and craftsmen. Tickets from the Fund's office.",
+    "ir": "Fonddun jıldagı negizgi kechesi: kechki tamak, muzıka jana irad sürötchülörü menen usta-önörmöndörü bergen buyumdardın auktsionu. Biletter fonddun keñsesinde.",
+    "ru": "Главный вечер фонда в году: ужин, музыка и аукцион работ, подаренных ирадскими художниками и мастерами. Билеты в офисе фонда."
+   }
+  }
+ ],
+ "events": [
+  {
+   "id": "2024-03-11-iradday",
+   "date": "2024-03-11",
+   "rec": "iradday",
+   "for": {
+    "en": "Families of the fallen",
+    "ir": "Kaza bolgondordun üy-bülölörü",
+    "ru": "Семьи погибших"
+   },
+   "report": {
+    "en": "Some 220 guests from the Talas valley, Nurzhan and the districts. The Fund gave presents to 140 children and grandchildren of the fallen.",
+    "ir": "Talas öröönünön, Nurzhandan jana aymaktardan 220dey konok. Fond kaza bolgondordun 140 balasına jana nebiresine sovgo berdi.",
+    "ru": "Около 220 гостей из Таласской долины, Нуржана и районов. Фонд вручил подарки 140 детям и внукам погибших."
+   }
+  },
+  {
+   "id": "2024-06-01-childday",
+   "date": "2024-06-01",
+   "rec": "childday",
+   "for": {
+    "en": "Archa summer camp",
+    "ir": "Archa jaygı lageri",
+    "ru": "Летний лагерь «Арча»"
+   },
+   "som": 96400,
+   "amt": "raised",
+   "report": {
+    "en": "About 6,000 visitors. The takings paid for 160 places at the Archa camp.",
+    "ir": "6 000dey konok. Tüshkön akcha Archa lagerindegi 160 orunga tölöndü.",
+    "ru": "Около 6000 посетителей. На выручку оплачено 160 путёвок в лагерь «Арча»."
+   }
+  },
+  {
+   "id": "2024-08-23-janyl",
+   "date": "2024-08-23",
+   "rec": "janyl",
+   "for": {
+    "en": "Rural health posts",
+    "ir": "Ayıl medpunkttarı",
+    "ru": "Сельские медпункты"
+   },
+   "som": 212000,
+   "amt": "raised",
+   "report": {
+    "en": "The Fund was represented by its executive director, Nazgül Asanbekova. The proceeds equipped four health posts in Lower Naryn District.",
+    "ir": "Fonddun atınan anın atkaruuchu direktoru Nazgül Asanbekova katıshtı. Tüshkön akchaga Tömönkü Narın aymagındagı tört medpunktu jabdıldı.",
+    "ru": "Фонд представляла исполнительный директор Назгуль Асанбекова. На сборы оснащены четыре медпункта Нижненарынского района."
+   }
+  },
+  {
+   "id": "2024-10-12-bazaar",
+   "date": "2024-10-12",
+   "rec": "bazaar",
+   "for": {
+    "en": "Warm Winter",
+    "ir": "Jılıy kısh",
+    "ru": "«Тёплая зима»"
+   },
+   "som": 31500,
+   "amt": "raised",
+   "report": {
+    "en": "Mrs Toktarova served at the stall for most of the morning. 380 jars of jam were sold before noon.",
+    "ir": "Toktarova hanım tüshkö cheyin düköndö turdu. Tüshkö cheyin 380 banka kıyam satıldı.",
+    "ru": "Госпожа Токтарова почти всё утро стояла за прилавком. До полудня продано 380 банок варенья."
+   }
+  },
+  {
+   "id": "2024-11-16-warm-winter",
+   "date": "2024-11-16",
+   "name": {
+    "en": "Warm Winter coats for Toktogul District",
+    "ir": "Toktogul aymagına Jılıy kısh kurtkaları",
+    "ru": "Куртки «Тёплой зимы» для Токтогульского района"
+   },
+   "place": {
+    "en": "Toktogul",
+    "ir": "Toktogul",
+    "ru": "Токтогул"
+   },
+   "for": {
+    "en": "Warm Winter",
+    "ir": "Jılıy kısh",
+    "ru": "«Тёплая зима»"
+   },
+   "som": 546000,
+   "amt": "given",
+   "report": {
+    "en": "3,900 winter coats, felt boots and mittens for the children of Toktogul and the basin villages, handed over at the district administration.",
+    "ir": "Toktogul jana öröön ayıldarının baldarına 3 900 kıshkı kurtka, kiyiz ötük jana mee aymak administratsiyasında tapshırıldı.",
+    "ru": "3900 зимних курток, валенок и варежек для детей Токтогула и сёл котловины переданы в районной администрации."
+   }
+  },
+  {
+   "id": "2024-12-28-ball",
+   "date": "2024-12-28",
+   "rec": "ball",
+   "for": {
+    "en": "Warm Winter and children's homes",
+    "ir": "Jılıy kısh jana baldar üylörü",
+    "ru": "«Тёплая зима» и детские дома"
+   },
+   "som": 1890000,
+   "amt": "raised",
+   "report": {
+    "en": "320 guests. The auction raised a third of the total; the top lot was a silver-mounted saddle from the Coppersmiths' Row.",
+    "ir": "320 konok. Jalpı summanın üchtön biri auktsiondon tüshtü; eñ kımbat buyum Jez ustalar katarınan kümüsh jasalgaluu eer boldu.",
+    "ru": "320 гостей. Треть суммы дал аукцион; самым дорогим лотом стало седло с серебряной отделкой из Медного ряда."
+   }
+  },
+  {
+   "id": "2025-02-18-incubators",
+   "date": "2025-02-18",
+   "name": {
+    "en": "Neonatal equipment for Talas Regional Hospital",
+    "ir": "Talas oblustuk oorukanasına jañı tuulgandar üchün jabduu",
+    "ru": "Оборудование для новорождённых в Таласскую областную больницу"
+   },
+   "place": {
+    "en": "Talas Regional Hospital",
+    "ir": "Talas oblustuk oorukanası",
+    "ru": "Таласская областная больница"
+   },
+   "for": {
+    "en": "Hospital wards",
+    "ir": "Oorukana bölümdörü",
+    "ru": "Больничные отделения"
+   },
+   "som": 630000,
+   "amt": "given",
+   "report": {
+    "en": "Mrs Toktarova handed over three incubators and a neonatal ventilator to the maternity ward.",
+    "ir": "Toktarova hanım tuut bölümünö üch inkubator jana jañı tuulgandar üchün dem aldıruu apparatın tapshırdı.",
+    "ru": "Госпожа Токтарова передала родильному отделению три инкубатора и аппарат ИВЛ для новорождённых."
+   }
+  },
+  {
+   "id": "2025-03-11-iradday",
+   "date": "2025-03-11",
+   "rec": "iradday",
+   "for": {
+    "en": "Families of the fallen",
+    "ir": "Kaza bolgondordun üy-bülölörü",
+    "ru": "Семьи погибших"
+   },
+   "report": {
+    "en": "Some 240 guests. Mrs Toktarova was joined by members of her family, and the Fund gave presents to 150 children and grandchildren of the fallen.",
+    "ir": "240tay konok. Toktarova hanım menen birge üy-bülösünün müchölörü boldu; fond kaza bolgondordun 150 balasına jana nebiresine sovgo berdi.",
+    "ru": "Около 240 гостей. Вместе с госпожой Токтаровой были члены её семьи; фонд вручил подарки 150 детям и внукам погибших."
+   }
+  },
+  {
+   "id": "2025-06-01-childday",
+   "date": "2025-06-01",
+   "rec": "childday",
+   "for": {
+    "en": "Archa summer camp",
+    "ir": "Archa jaygı lageri",
+    "ru": "Летний лагерь «Арча»"
+   },
+   "som": 118000,
+   "amt": "raised",
+   "report": {
+    "en": "About 7,000 visitors, with Bekzat Toktarov at the Fund's pony ring.",
+    "ir": "7 000dey konok; fonddun poni ayantında Bekzat Toktarov boldu.",
+    "ru": "Около 7000 посетителей; у манежа с пони был Бекзат Токтаров."
+   }
+  },
+  {
+   "id": "2025-08-23-janyl",
+   "date": "2025-08-23",
+   "rec": "janyl",
+   "for": {
+    "en": "Rural health posts",
+    "ir": "Ayıl medpunkttarı",
+    "ru": "Сельские медпункты"
+   },
+   "som": 264000,
+   "amt": "raised",
+   "report": {
+    "en": "The proceeds equipped five health posts in Lower Naryn and Toktogul districts.",
+    "ir": "Tüshkön akchaga Tömönkü Narın jana Toktogul aymaktarındagı besh medpunktu jabdıldı.",
+    "ru": "На сборы оснащены пять медпунктов Нижненарынского и Токтогульского районов."
+   }
+  },
+  {
+   "id": "2025-09-01-school",
+   "date": "2025-09-01",
+   "rec": "school",
+   "for": {
+    "en": "To School",
+    "ir": "Mektepke",
+    "ru": "«В школу»"
+   },
+   "som": 540000,
+   "amt": "given",
+   "report": {
+    "en": "3,600 satchels for first-year pupils in 212 village schools.",
+    "ir": "212 ayıl mektebinin birinchi klass okuuchularına 3 600 sumka.",
+    "ru": "3600 портфелей первоклассникам 212 сельских школ."
+   }
+  },
+  {
+   "id": "2025-10-11-bazaar",
+   "date": "2025-10-11",
+   "rec": "bazaar",
+   "for": {
+    "en": "Warm Winter",
+    "ir": "Jılıy kısh",
+    "ru": "«Тёплая зима»"
+   },
+   "som": 36200,
+   "amt": "raised",
+   "report": {
+    "en": "Mrs Toktarova and volunteers from School No. 4, where she once taught, ran the stall.",
+    "ir": "Düköndö Toktarova hanım jana al kezinde sabak bergen No. 4 mektepten kelgen ıktıyarchılar turdu.",
+    "ru": "За прилавком стояли госпожа Токтарова и волонтёры из школы № 4, где она когда-то преподавала."
+   }
+  },
+  {
+   "id": "2025-12-27-ball",
+   "date": "2025-12-27",
+   "rec": "ball",
+   "for": {
+    "en": "Warm Winter and children's homes",
+    "ir": "Jılıy kısh jana baldar üylörü",
+    "ru": "«Тёплая зима» и детские дома"
+   },
+   "som": 2140000,
+   "amt": "raised",
+   "report": {
+    "en": "340 guests. With the Ayaz Ata toy drive, 11,800 presents reached children in care and in hospital on New Year's Eve.",
+    "ir": "340 konok. «Ayaz Atanın kapchıgı» menen birge Jañı jıl tünündö 11 800 sovgo baldar üylöründögü jana oorukanadagı baldarga jetti.",
+    "ru": "340 гостей. Вместе со сбором «Мешок Аяз-Ата» в новогоднюю ночь 11 800 подарков получили дети в детских домах и больницах."
+   }
+  },
+  {
+   "id": "2026-03-11-iradday",
+   "date": "2026-03-11",
+   "rec": "iradday",
+   "for": {
+    "en": "Families of the fallen",
+    "ir": "Kaza bolgondordun üy-bülölörü",
+    "ru": "Семьи погибших"
+   },
+   "report": {
+    "en": "Some 230 guests on the 34th anniversary of the Republic. The Fund gave presents to 145 children and grandchildren of the fallen.",
+    "ir": "Respublikanın 34 jıldıgında 230dey konok. Fond kaza bolgondordun 145 balasına jana nebiresine sovgo berdi.",
+    "ru": "Около 230 гостей в 34-ю годовщину Республики. Фонд вручил подарки 145 детям и внукам погибших."
+   }
+  },
+  {
+   "id": "2026-05-29-archa",
+   "date": "2026-05-29",
+   "name": {
+    "en": "New dormitory at the Archa summer camp",
+    "ir": "Archa jaygı lagerindegi jañı jatakana",
+    "ru": "Новый корпус в летнем лагере «Арча»"
+   },
+   "place": {
+    "en": "Archa camp, Talas Alatau foothills",
+    "ir": "Archa lageri, Talas Alatoosunun etegi",
+    "ru": "Лагерь «Арча», предгорья Таласского Алатау"
+   },
+   "for": {
+    "en": "Archa summer camp",
+    "ir": "Archa jaygı lageri",
+    "ru": "Летний лагерь «Арча»"
+   },
+   "som": 1150000,
+   "amt": "given",
+   "report": {
+    "en": "A heated dormitory for 80 children opens the camp to spring and autumn school groups.",
+    "ir": "80 balaga arnalgan jılıtılgan jatakana lagerdi jazgı jana küzgü mektep toptoruna achtı.",
+    "ru": "Отапливаемый корпус на 80 детей позволяет принимать школьные группы весной и осенью."
+   }
+  },
+  {
+   "id": "2026-06-01-childday",
+   "date": "2026-06-01",
+   "rec": "childday",
+   "for": {
+    "en": "Archa summer camp",
+    "ir": "Archa jaygı lageri",
+    "ru": "Летний лагерь «Арча»"
+   },
+   "som": 124500,
+   "amt": "raised",
+   "report": {
+    "en": "About 7,500 visitors. 180 camp places paid for.",
+    "ir": "7 500dey konok. Lagerdegi 180 orunga tölöndü.",
+    "ru": "Около 7500 посетителей. Оплачено 180 путёвок в лагерь."
+   }
+  },
+  {
+   "id": "2026-08-23-janyl",
+   "date": "2026-08-23",
+   "rec": "janyl",
+   "for": {
+    "en": "Rural health posts",
+    "ir": "Ayıl medpunkttarı",
+    "ru": "Сельские медпункты"
+   },
+   "som": 275000,
+   "amt": "raised",
+   "report": {
+    "en": "The proceeds will equip five more health posts in Lower Naryn District this winter.",
+    "ir": "Tüshkön akchaga bul kıshta Tömönkü Narın aymagındagı dagı besh medpunkt jabdılat.",
+    "ru": "На сборы этой зимой оснастят ещё пять медпунктов Нижненарынского района."
+   }
+  },
+  {
+   "id": "2026-09-01-school",
+   "date": "2026-09-01",
+   "rec": "school",
+   "for": {
+    "en": "To School",
+    "ir": "Mektepke",
+    "ru": "«В школу»"
+   },
+   "som": 585000,
+   "amt": "given",
+   "report": {
+    "en": "3,900 satchels for first-year pupils in 218 village schools.",
+    "ir": "218 ayıl mektebinin birinchi klass okuuchularına 3 900 sumka.",
+    "ru": "3900 портфелей первоклассникам 218 сельских школ."
+   }
+  },
+  {
+   "id": "2026-10-10-bazaar",
+   "date": "2026-10-10",
+   "rec": "bazaar",
+   "for": {
+    "en": "Warm Winter",
+    "ir": "Jılıy kısh",
+    "ru": "«Тёплая зима»"
+   },
+   "som": 41300,
+   "amt": "raised",
+   "report": {
+    "en": "Mrs Toktarova was joined at the stall by her daughter, Zara Toktarova. The jam sold out by eleven.",
+    "ir": "Düköndö Toktarova hanım menen kızı Zara Toktarova boldu. Kıyam saat on birge cheyin satılıp büttü.",
+    "ru": "За прилавком с госпожой Токтаровой была её дочь Зара Токтарова. Варенье раскупили к одиннадцати."
+   }
+  },
+  {
+   "id": "2026-11-14-warm-winter",
+   "date": "2026-11-14",
+   "name": {
+    "en": "Warm Winter coats for Kara-Buura and Sary-Bulak",
+    "ir": "Kara-Buura jana Sarı-Bulakka Jılıy kısh kurtkaları",
+    "ru": "Куртки «Тёплой зимы» для Кара-Бууры и Сары-Булака"
+   },
+   "place": {
+    "en": "District administration, Kyzyl-Adyr, 11:00",
+    "ir": "Aymak administratsiyası, Kızıl-Adır, 11:00",
+    "ru": "Районная администрация, Кызыл-Адыр, 11:00"
+   },
+   "for": {
+    "en": "Warm Winter",
+    "ir": "Jılıy kısh",
+    "ru": "«Тёплая зима»"
+   },
+   "report": {
+    "en": "4,200 winter coats, felt boots and mittens for the children of the two districts.",
+    "ir": "Eki aymaktın baldarına 4 200 kıshkı kurtka, kiyiz ötük jana mee.",
+    "ru": "4200 зимних курток, валенок и варежек для детей двух районов."
+   }
+  },
+  {
+   "id": "2026-12-01-toys",
+   "date": "2026-12-01",
+   "to": "2026-12-24",
+   "rec": "toys",
+   "for": {
+    "en": "Children in care and in hospital",
+    "ir": "Baldar üylöründögü jana oorukanadagı baldar",
+    "ru": "Дети в детских домах и больницах"
+   }
+  },
+  {
+   "id": "2026-12-26-ball",
+   "date": "2026-12-26",
+   "rec": "ball",
+   "for": {
+    "en": "Warm Winter and children's homes",
+    "ir": "Jılıy kısh jana baldar üylörü",
+    "ru": "«Тёплая зима» и детские дома"
+   }
+  },
+  {
+   "id": "2027-03-11-iradday",
+   "date": "2027-03-11",
+   "rec": "iradday",
+   "for": {
+    "en": "Families of the fallen",
+    "ir": "Kaza bolgondordun üy-bülölörü",
+    "ru": "Семьи погибших"
+   }
+  }
+ ]
+}
