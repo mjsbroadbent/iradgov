@@ -1,0 +1,566 @@
+{
+  "updated": "2026-10-20",
+  "releases": [
+    {
+      "id": "2026-10-19-nurzhan-compute-park",
+      "date": "2026-10-19",
+      "type": "lg",
+      "source": {
+        "en": "Office of the Lieutenant Governor",
+        "ir": "Vitse-gubernatordun apparatı",
+        "ru": "Аппарат вице-губернатора"
+      },
+      "title": {
+        "en": "Lieutenant Governor visits the construction site of the Nurzhan Compute Park",
+        "ir": "Vitse-gubernator Nurzhan Compute Park kurulush ayantın kördü",
+        "ru": "Вице-губернатор посетил стройплощадку Нуржанского вычислительного парка"
+      },
+      "summary": {
+        "en": "Aidar Maksat and the Director-General of Attelkom, Samat Kasymov, inspected the first phase of a planned US$450 million data-centre hub in Nurzhan's Eastern Industrial Zone.",
+        "ir": "Aidar Maksat jana Attelkomdun bash direktoru Samat Kasymov Nurzhandın Chıgısh önör jay zonasındagı 450 million dollarlık maalımat borborunun birinchi bagıtın kördü.",
+        "ru": "Айдар Максат и генеральный директор «Аттелкома» Самат Касымов осмотрели первую очередь центра обработки данных стоимостью 450 млн долларов в Восточной промзоне Нуржана."
+      },
+      "body": {
+        "en": [
+          "Lieutenant Governor Aidar Maksat on Monday visited the construction site of the Nurzhan Compute Park in the Eastern Industrial Zone of Nurzhan, Chu District. He was accompanied by the Director-General of Attelkom, Samat Kasymov.",
+          "The park is planned as a hub for cloud computing and artificial-intelligence services. The project is estimated at about US$450 million over several phases. The first phase, of about US$110 million, is designed for 40 megawatts of load, rising to 150 megawatts as later phases are built. About 300 permanent jobs are expected once the park is in operation.",
+          "Power will be supplied from natural gas through the Nurzhan central heat and power plant, with grid electricity from the Toktogul hydropower complex as back-up. Attelkom is designing fibre links from the park to the Attelkom Data Center in Talas and to the national network alongside the halls themselves.",
+          "“This is the ISEZ keeping pace with the region,” the Lieutenant Governor said at the site. “Our neighbours in Kazakhstan are building data centres at speed. We intend that Iradi data and Iradi computing power are kept at home, and that the jobs and the investment stay in Nurzhan.”",
+          "Further information on equipment suppliers and on the gas, water and grid connections will be released as each phase is contracted. Construction of the first phase continues."
+        ]
+      },
+      "tags": [
+        "investment",
+        "Nurzhan",
+        "energy"
+      ]
+    },
+    {
+      "id": "2026-10-19-investment-tally",
+      "date": "2026-10-19",
+      "type": "gov",
+      "source": {
+        "en": "ISEZ Investment Promotion Office",
+        "ir": "IAEZ Investitsiyalardı ilgeriletüü keñsesi",
+        "ru": "Офис содействия инвестициям ОЭЗИ"
+      },
+      "title": {
+        "en": "88 investment agreements worth US$2.4 billion signed in three years",
+        "ir": "Üch jılda 2,4 milliard dollarlık 88 investitsiyalık kelishim tüzüldü",
+        "ru": "За три года подписано 88 инвестиционных соглашений на 2,4 млрд долларов"
+      },
+      "summary": {
+        "en": "The first full tally of investment agreements since late 2023 shows energy, antimony and logistics drawing most foreign capital.",
+        "ir": "2023-jıldın akırınan beri tüzülgön kelishimderdin algachkı toluk esebi: chet el kapitalının köbü energetikaga, sürmögö jana logistikaga keldi.",
+        "ru": "Первый полный подсчёт соглашений с конца 2023 года: больше всего иностранного капитала привлекли энергетика, сурьма и логистика."
+      },
+      "body": {
+        "en": [
+          "The Irad Special Economic Zone has signed 88 investment agreements worth a combined US$2.4 billion over the past three years, the ISEZ Investment Promotion Office said in Talas on Monday.",
+          "The agreements range from small cold-chain and packaging contracts in the Talas Agro-Industrial and Economic Zone to large energy and mining commitments. About a third of the total value is tied to power generation and transmission, led by the refit of the Toktogul hydropower complex. Most agreements are already at the construction or procurement stage.",
+          "“Investors tell us three things: they want a predictable dollar-denominated contract, a single counter to deal with, and a government that answers its telephone,” said Kirill Zhdanov, head of the Investment Promotion Office.",
+          "“Capital follows confidence, and confidence is built contract by contract,” Lieutenant Governor Aidar Maksat said. He added that the census of business entities opened last week would give the government “a clearer map of who is here, who wants to expand and what they need”.",
+          "The office will publish a disbursement update in the spring. A further group of agreements in agro-processing and logistics is expected to be signed before the end of the year."
+        ]
+      },
+      "tags": [
+        "investment",
+        "economy"
+      ]
+    },
+    {
+      "id": "2026-10-16-potato-import-draft",
+      "date": "2026-10-16",
+      "type": "ministry",
+      "source": {
+        "en": "Ministry of Natural Resources",
+        "ir": "Jaratılısh baylıktarı ministrligi",
+        "ru": "Министерство природных ресурсов"
+      },
+      "title": {
+        "en": "Draft order on a temporary halt to table potato imports published for comment",
+        "ir": "Tamak-ash kartoshkasın import kıluunu ubaktıluu toktotuu boyuncha buyruktun dolbooru talkuuga chıgarıldı",
+        "ru": "Проект приказа о временном запрете ввоза столового картофеля вынесен на обсуждение"
+      },
+      "summary": {
+        "en": "After a record harvest of about 210,000 tonnes, the ministry proposes to stop imports of table potatoes until 1 March 2027. Comments are open until 30 October.",
+        "ir": "Boljolu 210 000 tonna rekordduk tüshümdön kiyin ministrlik 2027-jıldın 1-martına cheyin tamak-ash kartoshkasın import kıluunu toktotuunu sunushtayt. Pikirler 30-oktyabrga cheyin kabıl alınat.",
+        "ru": "После рекордного урожая около 210 тыс. тонн министерство предлагает прекратить ввоз столового картофеля до 1 марта 2027 года. Замечания принимаются до 30 октября."
+      },
+      "body": {
+        "en": [
+          "The Ministry of Natural Resources has published a draft order that would suspend imports of table potatoes into the Irad Special Economic Zone until 1 March 2027. Seed potatoes are exempt.",
+          "This autumn's harvest in the Chu and Talas valleys is the largest on record, at about 210,000 tonnes. The restriction is intended to give growers room to sell their crop while cellars are full, and would be reviewed if retail prices rose.",
+          "“The harvest is large enough to cover the table all winter, and we want to be sure that imported tubers do not crowd out our growers while the cellars are full,” said Pavel Gorbunov, deputy head of the ministry's crop production department.",
+          "Growers' associations, traders and hauliers are invited to send written comments until 30 October 2026. The final decision will be announced through the Department of Public Information."
+        ]
+      },
+      "related": [
+        "draft-mnr-2026-potatoes"
+      ],
+      "tags": [
+        "agriculture",
+        "trade"
+      ]
+    },
+    {
+      "id": "2026-10-15-business-census",
+      "date": "2026-10-15",
+      "type": "gov",
+      "source": {
+        "en": "Territorial Statistics Office",
+        "ir": "Aymaktık statistika keñsesi",
+        "ru": "Территориальное статистическое управление"
+      },
+      "title": {
+        "en": "Census of business entities begins: enumerators visit firms, farms and stalls until 30 November",
+        "ir": "Ishkanalardın sanagı bashtaldı: kattoochular 30-noyabrga cheyin firmalardı, chabandardı jana sooda oorundarın kıdırat",
+        "ru": "Начата перепись хозяйствующих субъектов: счётчики обходят фирмы, фермы и торговые места до 30 ноября"
+      },
+      "summary": {
+        "en": "The first count of all business entities in the ISEZ runs from 15 October to 30 November. Answers are used for statistics only.",
+        "ir": "IAEZdegi bardık ishkanalardın algachkı sanagı 15-oktyabrdan 30-noyabrga cheyin jürüt. Jooptor statistika üchün gana koldonulat.",
+        "ru": "Первая перепись всех хозяйствующих субъектов ОЭЗИ проходит с 15 октября по 30 ноября. Ответы используются только для статистики."
+      },
+      "body": {
+        "en": [
+          "The first census of business entities in the Irad Special Economic Zone began on 15 October and will run until 30 November 2026, under Executive Directive 2026/24.",
+          "About 1,800 enumerators, most of them teachers and students of Talas State University, will visit registered companies, farms, workshops, market stalls and home businesses in the three cities and the six districts. The questionnaire takes about 25 minutes. Businesses may also complete it at Attelkom service points.",
+          "The register currently lists about 41,000 entities, and the real number of active businesses is expected to be considerably higher. “For thirty years we have planned the economy from tax filings and bank statistics,” Lieutenant Governor Aidar Maksat said. “Those tell us a great deal about NurGaz and Talasbank, and very little about a family selling apricots from a cart. This census is about seeing the whole economy.”",
+          "Answers are used for statistical purposes only and are not passed to tax inspectors. Business owners are asked to receive enumerators and to keep their ID card ready. Enumerators carry a Statistics Office card with a photograph and never ask for payment.",
+          "Preliminary results are due in the new year, ahead of the 2027 budget review."
+        ]
+      },
+      "related": [
+        "ed-2026-24"
+      ],
+      "tags": [
+        "economy",
+        "statistics"
+      ]
+    },
+    {
+      "id": "2026-10-14-harvest",
+      "date": "2026-10-14",
+      "type": "gov",
+      "source": {
+        "en": "Office of the Lieutenant Governor",
+        "ir": "Vitse-gubernatordun apparatı",
+        "ru": "Аппарат вице-губернатора"
+      },
+      "title": {
+        "en": "Preliminary harvest figures: 1.2 million tonnes of grain and 210,000 tonnes of potatoes",
+        "ir": "Tüshümdün aldın ala jıyıntıgı: 1,2 million tonna dan jana 210 000 tonna kartoshka",
+        "ru": "Предварительные итоги уборки: 1,2 млн тонн зерна и 210 тыс. тонн картофеля"
+      },
+      "summary": {
+        "en": "The Chu and Talas valleys have brought in one of the strongest harvests in years. Grain is up by about two-fifths on last year.",
+        "ir": "Chüy jana Talas örööndörü akırkı jıldardagı eñ jakshı tüshümdördün birin jıynadı. Dan ötkön jılga karaganda boljolu beshten ekige köbööydü.",
+        "ru": "Чуйская и Таласская долины собрали один из лучших урожаев за многие годы. Зерна примерно на две пятых больше, чем в прошлом году."
+      },
+      "body": {
+        "en": [
+          "Preliminary figures from the district agriculture departments show a harvest of about 1.2 million tonnes of grain (wheat, barley and field maize) and about 210,000 tonnes of potatoes in the ISEZ this year.",
+          "The grain total is about 340,000 tonnes higher than at the same point last year, and potato output is up by more than a quarter. The departments credit a kinder growing season, steady canal rotations in Kara-Buura and Talas districts, and the second full year of lining and laser-levelling under the Irrigation Modernization Programme.",
+          "Storage capacity at the district elevators will be reviewed before the winter. The Ministry of Natural Resources and the district departments will publish final harvest figures in November."
+        ]
+      },
+      "tags": [
+        "agriculture"
+      ]
+    },
+    {
+      "id": "2026-10-12-sary-bulak-restart",
+      "date": "2026-10-12",
+      "type": "lg",
+      "source": {
+        "en": "Office of the Lieutenant Governor",
+        "ir": "Vitse-gubernatordun apparatı",
+        "ru": "Аппарат вице-губернатора"
+      },
+      "title": {
+        "en": "Phased restart announced for the Sary-Bulak Antimony Works and the Chatkal smelter",
+        "ir": "Sarı-Bulak sürmö kombinatın jana Chatkal eritüü zavodun baskıchtap kayra ishtetüü jarıyalandı",
+        "ru": "Объявлен поэтапный перезапуск Сары-Булакского сурьмяного комбината и Чаткальского завода"
+      },
+      "summary": {
+        "en": "Speaking to residents and plant staff in Sary-Bulak, the Lieutenant Governor said idle lines will return in stages, with the first stage expected to create around 600 jobs.",
+        "ir": "Sarı-Bulakta turgundar jana kızmatkerler menen jolugushuuda Vitse-gubernator toktop turgan liniyalar baskıchtap ishke kirerin, birinchi baskıch 600gö jakın jumush orun bererin ayttı.",
+        "ru": "Выступая перед жителями и работниками комбината в Сары-Булаке, вице-губернатор сказал, что простаивающие линии будут запускаться поэтапно; первая очередь даст около 600 рабочих мест."
+      },
+      "body": {
+        "en": [
+          "Lieutenant Governor Aidar Maksat on Monday announced the phased return to production of idle lines at the Sary-Bulak Antimony Works and the Chatkal Chemical Smelting Complex, at a meeting with residents and plant staff in Sary-Bulak.",
+          "The first stage is expected to create around 600 jobs, with recruitment prioritised for workers from Lower Naryn and Chu districts, where seasonal farm work leaves many households short of winter income. The first stage is estimated at about US$25 million, financed from the works' own reserves, Talasbank credit and private partners, who will be named at signing.",
+          "“We will not pretend the export controls do not matter,” the Lieutenant Governor said. “Our answer is a wider customer list and more value added in Irad, not a larger pile of raw concentrate.”",
+          "The Minister of Natural Resources, Chingiz Asanov, said the programme includes tighter licensing of ore sourcing. “Ore that is weighed, papered and processed here brings wages and royalties home,” he said.",
+          "The Ministry of Natural Resources will publish the first hiring notices this month. The first Sary-Bulak lines are due to restart before the end of the year, with Chatkal to follow in spring."
+        ]
+      },
+      "tags": [
+        "industry",
+        "Sary-Bulak",
+        "jobs"
+      ]
+    },
+    {
+      "id": "2026-10-12-customs-roadmap-kazakhstan",
+      "date": "2026-10-12",
+      "type": "gov",
+      "source": {
+        "en": "ISEZ Customs Service",
+        "ir": "IAEZ Bajı kızmatı",
+        "ru": "Таможенная служба ОЭЗИ"
+      },
+      "title": {
+        "en": "Customs roadmap with Kazakhstan for 2027–2028 signed at Kyzyl-Adyr",
+        "ir": "Kazakstan menen 2027–2028-jıldarga bajı jol kartası Kızıl-Adırda kol koyuldu",
+        "ru": "В Кызыл-Адыре подписана таможенная дорожная карта с Казахстаном на 2027–2028 годы"
+      },
+      "summary": {
+        "en": "Electronic pre-clearance at the Talas North Terminal, a shared schedule of inspection hours and a separate lane for low-risk lorries.",
+        "ir": "Talas Tündük terminalında elektronduk aldın ala tarıktoo, tekshirüü saattarının jalpı grafigi jana tobokeldigi tömön jük tashuuchular üchün öznchö tilke.",
+        "ru": "Электронное предварительное оформление на Таласском северном терминале, общий график часов досмотра и отдельная полоса для грузовиков низкого риска."
+      },
+      "body": {
+        "en": [
+          "The ISEZ Customs Service and Kazakhstan's customs authority on Monday signed a roadmap for 2027 and 2028 at the Kyzyl-Adyr district offices.",
+          "Under the roadmap, carriers will file declarations electronically before reaching the frontier, the two services will exchange manifest data for bonded loads in advance, and lorries flagged as low-risk will use a separate lane at the Talas North Terminal. The ISEZ side will provide two vehicle scanners and the declaration software.",
+          "Like the 2008 Northern Border Demarcation Protocol, the roadmap is a technical document. Inspections remain coordinated by the two services.",
+          "“A driver should know before he leaves Talas how long the frontier will take,” said Anvar Sultanbekov, deputy director of the Customs Service.",
+          "The Office of the Lieutenant Governor is also reviewing slot scheduling at the terminal with its Kazakh counterparts, so that Iradi grain, feed and cotton-thread shipments keep their places in the harvest weeks while transit volumes are high."
+        ]
+      },
+      "tags": [
+        "trade",
+        "customs",
+        "Kazakhstan"
+      ]
+    },
+    {
+      "id": "2026-10-10-toktogul-1440",
+      "date": "2026-10-10",
+      "type": "ministry",
+      "source": {
+        "en": "Ministry of Natural Resources",
+        "ir": "Jaratılısh baylıktarı ministrligi",
+        "ru": "Министерство природных ресурсов"
+      },
+      "title": {
+        "en": "Toktogul refit raises capacity to 1,440 MW",
+        "ir": "Toktogul GESi jañılangandan kiyin kuvattuulugu 1 440 MVtga jetti",
+        "ru": "После модернизации мощность Токтогульской ГЭС выросла до 1440 МВт"
+      },
+      "summary": {
+        "en": "Each of the four generating units now delivers 360 MW instead of 300. The Minister of Natural Resources reviewed the work at the Lower Naryn switchyard and the National Dispatch Centre.",
+        "ir": "Tört generatordun ar biri emi 300 emes, 360 MVt beret. Ministr ishti Tömönkü Narındagı bölüshtürüü tüyününö jana Uluttuk dispetcherdik borborgo barıp kördü.",
+        "ru": "Каждый из четырёх агрегатов теперь выдаёт 360 МВт вместо 300. Министр ознакомился с работами на нижненарынской подстанции и в Национальном диспетчерском центре."
+      },
+      "body": {
+        "en": [
+          "The Minister of Natural Resources, Chingiz Asanov, on Saturday reviewed the completed refit of the Toktogul hydropower complex, whose capacity has risen from 1,200 MW to 1,440 MW. The last of the four refitted units returned to service in September.",
+          "The minister visited the switchyard and the National Dispatch Centre in Lower Naryn District and met members of the joint technical commission of the Naryn Water and Power Protocol, with the Uzbek, Kazakh and Kyrgyz observer delegations present.",
+          "“Toktogul is a shared asset, and it has been improved in a shared way,” the minister said. “More capacity does not mean a different water schedule. The Protocol sets the schedule, and the machines simply serve it better.”",
+          "The additional output gives grid operators more room at the winter peak, when export demand is highest. A joint load test of the units will be held before winter, with results reported to the commission and the observer delegations."
+        ]
+      },
+      "tags": [
+        "energy",
+        "Toktogul"
+      ]
+    },
+    {
+      "id": "2026-10-08-dpi-restricted-sites",
+      "date": "2026-10-08",
+      "type": "statement",
+      "source": {
+        "en": "Department of Public Information",
+        "ir": "Kogomduk maalımat departamenti",
+        "ru": "Департамент общественной информации"
+      },
+      "title": {
+        "en": "Statement on the restriction of websites offering unlicensed financial services",
+        "ir": "Litsenziyasız finansılık kızmat sunushkan sayttardı chektöö boyuncha bildirüü",
+        "ru": "Заявление об ограничении доступа к сайтам, предлагающим нелицензированные финансовые услуги"
+      },
+      "summary": {
+        "en": "At the request of financial supervisors, the website of the “Tulparcoin” token and the foreign platform on which it trades have been added to the list of restricted sites.",
+        "ir": "Finansılık közömöldööchülördün suroosu boyuncha “Tulparcoin” tokeninin saytı jana al satılgan chet eldik platforma chektelgen sayttar tizmesine kirgizildi.",
+        "ru": "По просьбе финансовых надзорных органов сайт токена «Тулпаркоин» и зарубежная площадка, на которой он торгуется, внесены в список ограниченных сайтов."
+      },
+      "body": {
+        "en": [
+          "The Department of Public Information has added the website of the token marketed as “Tulparcoin” and the foreign exchange platform on which it is traded to the list of restricted sites that it supplies to telecommunications operators.",
+          "The department acted at the request of financial supervisors, to protect citizens from unlicensed financial activity. Messaging services are not affected.",
+          "The Department reminds residents that the som and the United States dollar are the only legal tender in the Irad Special Economic Zone, and that questions about savings and investments should be taken to a licensed bank."
+        ]
+      },
+      "related": [
+        "dpi-2026-10-08",
+        "boi-2026-09-24"
+      ],
+      "tags": [
+        "finance",
+        "internet"
+      ]
+    },
+    {
+      "id": "2026-10-05-navbahor-school",
+      "date": "2026-10-05",
+      "type": "lg",
+      "source": {
+        "en": "Office of the Lieutenant Governor",
+        "ir": "Vitse-gubernatordun apparatı",
+        "ru": "Аппарат вице-губернатора"
+      },
+      "title": {
+        "en": "Lieutenant Governor opens a solar-powered school in Navbahor, Nurzhan",
+        "ir": "Vitse-gubernator Nurzhandın Navbahor rayonunda kün energiyası menen ishtegen mektepti achtı",
+        "ru": "Вице-губернатор открыл школу на солнечной энергии в нуржанском районе Навбахор"
+      },
+      "summary": {
+        "en": "The 24-classroom school is the twelfth school or kindergarten completed this year. Eighteen more are due before the end of December.",
+        "ir": "24 klasstuu mektep bıyıl bütkön on ekinchi mektep je bala bakcha. Dekabrdın akırına cheyin dagı on segizi achılat.",
+        "ru": "Школа на 24 класса стала двенадцатой школой или детским садом, построенными в этом году. До конца декабря откроются ещё восемнадцать."
+      },
+      "body": {
+        "en": [
+          "Lieutenant Governor Aidar Maksat on Monday opened a new school in Nurzhan's Navbahor district, the twelfth school or kindergarten completed this year under the ISEZ school building programme.",
+          "Eighteen more are due to open before the end of December: six in Talas, five in Nurzhan, three in Iyık Janyl and four in the district centres, among them Kyzyl-Adyr and Tash-Kömür. The programme is designed to clear the waiting lists for first-grade places in both cities by 2028.",
+          "The Navbahor building is the first in Irad designed to run largely on its own power, with about 100 kW of solar panels on its roof. Every school in the programme will now be built to the same standard. “A school that keeps its lights on when the grid is busy is a school that keeps teaching,” the Lieutenant Governor told pupils and parents. “This is what investment in our future looks like.”",
+          "The school's 24 classrooms will teach in English and Iradi from the first grade, with Russian as a subject. The next openings are planned in Talas later this month."
+        ]
+      },
+      "tags": [
+        "education",
+        "Nurzhan"
+      ]
+    },
+    {
+      "id": "2026-10-01-kara-unkur-tremor",
+      "date": "2026-10-01",
+      "type": "district",
+      "source": {
+        "en": "Lower Naryn District administration",
+        "ir": "Tömönkü Narın aymagının administratsiyası",
+        "ru": "Администрация Нижненарынского района"
+      },
+      "title": {
+        "en": "Magnitude 4.9 tremor in the Kara-Unkur valley: no damage reported",
+        "ir": "Kara-Üñkür öröönündö 4,9 magnitudalık jer titiröö: zıyan jok",
+        "ru": "Землетрясение магнитудой 4,9 в долине Кара-Ункур: разрушений нет"
+      },
+      "summary": {
+        "en": "The district emergency service checked bridges, schools and the switchyard within the hour. Residents of older mudbrick houses are asked to check walls and chimneys before the heating season.",
+        "ir": "Aymaktık özgöchö kırdaal kızmatı bir saattın ichinde köpürlördü, mekteptterdi jana bölüshtürüü tüyünün tekshirdi. Eski kerpich üylördö jashagandar jılytuu mezgilinin aldında dubaldardı jana moordu tekshersin.",
+        "ru": "Районная служба по чрезвычайным ситуациям в течение часа проверила мосты, школы и подстанцию. Жителей старых саманных домов просят проверить стены и дымоходы до начала отопительного сезона."
+      },
+      "body": {
+        "en": [
+          "An earthquake of magnitude 4.9 shook the foothills of the Fergana Rim at 14:17 on Thursday. The epicentre was in the Kara-Unkur valley, a few kilometres north-east of Kyzyl-Unkur. Shaking was felt in Bazar-Korgon and lightly in Tash-Kömür.",
+          "“Our teams checked the bridges, the schools and the switchyard within the hour, and everything is in order,” said Nurlan Osmonkulov, head of the Lower Naryn District emergency service. Messages relayed through the UNMI liaison office reported no damage on the far side of the line.",
+          "Residents of older mudbrick houses are reminded to check walls and chimneys before the heating season and to report cracks to their local administration."
+        ]
+      },
+      "tags": [
+        "emergency",
+        "Lower Naryn"
+      ]
+    },
+    {
+      "id": "2026-09-29-boi-payment-services",
+      "date": "2026-09-29",
+      "type": "statement",
+      "source": {
+        "en": "Bank of Irad",
+        "ir": "Irad Bankı",
+        "ru": "Банк Ирада"
+      },
+      "title": {
+        "en": "Bank of Irad: payment services require a licence",
+        "ir": "Irad Bankı: tölöm kızmattarı üchün litsenziya kerek",
+        "ru": "Банк Ирада: для платёжных услуг нужна лицензия"
+      },
+      "summary": {
+        "en": "Any service that takes payments or holds funds for residents of the ISEZ needs a licence under the 1993 Act, whatever the instrument it uses.",
+        "ir": "IAEZ turgundarınan tölöm kabıl algan je alardın karajatın saktagan ar kanday kızmat, kanday kural koldonbosun, 1993-jılkı Mıyzam boyuncha litsenziya alıshı kerek.",
+        "ru": "Любой сервис, который принимает платежи или хранит средства жителей ОЭЗИ, должен иметь лицензию по Закону 1993 года, независимо от используемого инструмента."
+      },
+      "body": {
+        "en": [
+          "The Bank of Irad has written to the operators of payment services offered to residents of the Irad Special Economic Zone, reminding them that the acceptance of payments and the holding of customer funds are licensed activities under the Banking and Commercial Currency Act of 1993.",
+          "The letter refers among others to the payment service announced inside the Tulpar messaging application. A service does not escape licensing because the units it records are not money; it is the taking of payments and deposits that the Act regulates.",
+          "Residents are advised to make payments through licensed banks, and to treat any balance held with an unlicensed service as unprotected."
+        ]
+      },
+      "related": [
+        "boi-2026-09-29"
+      ],
+      "tags": [
+        "finance"
+      ]
+    },
+    {
+      "id": "2026-09-26-textbooks-directive",
+      "date": "2026-09-26",
+      "type": "gov",
+      "source": {
+        "en": "Office of the Lieutenant Governor",
+        "ir": "Vitse-gubernatordun apparatı",
+        "ru": "Аппарат вице-губернатора"
+      },
+      "title": {
+        "en": "Executive Directive 2026/31 sets at least IS 41 million for school textbooks",
+        "ir": "2026/31 Atkaruu direktivası mektep okuu kitepterine keminde 41 million som bölöt",
+        "ru": "Исполнительная директива 2026/31 выделяет не менее 41 млн сомов на школьные учебники"
+      },
+      "summary": {
+        "en": "A four-year printing programme for 2027–2030, expert review of every new title and a code on each copy showing the school and pupil it was issued to.",
+        "ir": "2027–2030-jıldarga tört jıldık basuu programması, ar bir jañı kitepti eksperttik tekshirüü jana ar bir nuskada kaysı mektepke, kaysı okuuchuga berilgenin körsötkön kod.",
+        "ru": "Четырёхлетняя программа печати на 2027–2030 годы, экспертиза каждого нового издания и код на каждом экземпляре с указанием школы и ученика."
+      },
+      "body": {
+        "en": [
+          "Executive Directive 2026/31, published in the official gazette, sets aside at least IS 41 million to print textbooks for the zone's public schools over the next four years.",
+          "The Department of Education is to prepare a printing programme for 2027 to 2030 and submit it with next year's budget. A commission will review the curriculum and the books now in use; every new title must pass an expert review before copies are ordered, and authors and manuscripts will be chosen by competition.",
+          "Each copy will carry a QR code identifying the district, school, class and pupil it is issued to. “On paper we print enough copies, and still the schools tell us they are short,” said Dinara Seitkulova, head of the department's curriculum section, who will chair the commission. “Once a book has an address, we will know whether the problem is printing, delivery or something else.”",
+          "About 400,000 pupils attend ISEZ public schools."
+        ]
+      },
+      "related": [
+        "ed-2026-31"
+      ],
+      "tags": [
+        "education"
+      ]
+    },
+    {
+      "id": "2026-09-24-boi-tulparcoin",
+      "date": "2026-09-24",
+      "type": "statement",
+      "source": {
+        "en": "Bank of Irad",
+        "ir": "Irad Bankı",
+        "ru": "Банк Ирада"
+      },
+      "title": {
+        "en": "Bank of Irad statement on the token marketed as “Tulparcoin”",
+        "ir": "“Tulparcoin” dep satılıp jatkan token boyuncha Irad Bankının bildirüüsü",
+        "ru": "Заявление Банка Ирада о токене, продвигаемом под названием «Тулпаркоин»"
+      },
+      "summary": {
+        "en": "The token is not legal tender, is not backed by the bank's dollar reserves and carries no deposit protection. Only the som and the US dollar are legal tender.",
+        "ir": "Token mıyzamduu tölöm karajatı emes, bankın dollar rezervi menen kamsızdalbagan jana depozit korgoosu jok. Som jana AKSh dolları gana mıyzamduu tölöm karajatı.",
+        "ru": "Токен не является законным платёжным средством, не обеспечен долларовыми резервами банка и не застрахован. Законные платёжные средства: сом и доллар США."
+      },
+      "body": {
+        "en": [
+          "The Bank of Irad on Thursday warned the public about a digital token promoted online in recent days under the name “Tulparcoin”.",
+          "The token is not issued or backed by any Iradi institution, is not covered by the bank's dollar reserves and carries no deposit protection. Those who buy it do so entirely at their own risk. The som and the United States dollar remain the only legal tender in the Irad Special Economic Zone.",
+          "“The som has held its value at 8.40 to the dollar for eighteen years,” said the bank's deputy chairman, Ermek Sadykbekov. “That stability is the foundation of every family's savings, and it is not for sale on foreign websites.”",
+          "The Office of the Lieutenant Governor said it would work with banks and financial supervisors to protect citizens' savings from speculation. Residents with questions about investments should consult a licensed bank and report suspicious offers."
+        ]
+      },
+      "related": [
+        "boi-2026-09-24"
+      ],
+      "tags": [
+        "finance",
+        "som"
+      ]
+    },
+    {
+      "id": "2026-08-24-governor-feast-greeting",
+      "date": "2026-08-24",
+      "type": "governor",
+      "source": {
+        "en": "Office of the Governor",
+        "ir": "Gubernatordun apparatı",
+        "ru": "Аппарат губернатора"
+      },
+      "title": {
+        "en": "The Governor's greeting on the Feast of St. Janyl",
+        "ir": "Gubernatordun Janıl Mayramı menen kuttuktoosu",
+        "ru": "Поздравление губернатора с праздником Святой Джаныл"
+      },
+      "summary": {
+        "en": "Governor Erlan Toktarov greeted the faithful and the pilgrims gathered at Iyık Janyl. The address was broadcast on IradOne.",
+        "ir": "Gubernator Erlan Toktarov Iyık Janılga chogulgan ıyman keltirgenderdi jana ziyaratchılardı kuttuktadı. Kayrıluu IradOne'do berildi.",
+        "ru": "Губернатор Эрлан Токтаров поздравил верующих и паломников, собравшихся в Ийык-Джаныле. Обращение передано по IradOne."
+      },
+      "body": {
+        "en": [
+          "Governor Erlan Toktarov greeted the faithful and the pilgrims gathered at Iyık Janyl for the Feast of St. Janyl in a recorded address broadcast on IradOne.",
+          "The text of the address is published on the <a href=\"/governor.html#addresses\">Governor's page</a>."
+        ]
+      },
+      "tags": [
+        "Governor",
+        "Iyık Janyl"
+      ]
+    },
+    {
+      "id": "2025-03-05-gdp-2024",
+      "date": "2025-03-05",
+      "type": "gov",
+      "source": {
+        "en": "Office of the Lieutenant Governor",
+        "ir": "Vitse-gubernatordun apparatı",
+        "ru": "Аппарат вице-губернатора"
+      },
+      "title": {
+        "en": "ISEZ economy grew 1.5 per cent in 2024",
+        "ir": "IAEZdin ekonomikası 2024-jılı 1,5 paiyzga östü",
+        "ru": "Экономика ОЭЗИ в 2024 году выросла на 1,5 процента"
+      },
+      "summary": {
+        "en": "Beef exports from the Talas valley and steady refinery output put growth ahead of the government's spring forecast.",
+        "ir": "Talas öröönünön uy etin eksporttoo jana NPZnın turuktuu ishi össüshtü ökmöttün jazgı boljolunan jogoru kıldı.",
+        "ru": "Экспорт говядины из Таласской долины и стабильная работа НПЗ позволили превысить весенний прогноз правительства."
+      },
+      "body": {
+        "en": [
+          "The economy of the Irad Special Economic Zone grew by 1.5 per cent in 2024, ahead of the forecast published by the government last spring.",
+          "Stronger beef exports from the Talas valley feedlots and steady throughput at Nurzhan Refinery No. 1 offset softer cotton prices and higher costs for remittances routed through Almaty.",
+          "“The som has held its peg, our exporters have found buyers, and investment keeps coming to Talas,” said Azamat Temirov, chairman of the Bank of Irad.",
+          "The Office of the Lieutenant Governor will present the budget for the coming year to the Mejlis next month."
+        ]
+      },
+      "tags": [
+        "economy"
+      ]
+    },
+    {
+      "id": "2025-02-10-uzbek-memorandum",
+      "date": "2025-02-10",
+      "type": "lg",
+      "source": {
+        "en": "Office of the Lieutenant Governor",
+        "ir": "Vitse-gubernatordun apparatı",
+        "ru": "Аппарат вице-губернатора"
+      },
+      "title": {
+        "en": "Memorandum on trade and border coordination signed with Uzbekistan",
+        "ir": "Özbekstan menen sooda jana chek ara koordinatsiyası boyuncha memorandumga kol koyuldu",
+        "ru": "С Узбекистаном подписан меморандум о торговле и пограничной координации"
+      },
+      "summary": {
+        "en": "Shared customs inspection hours at the main crossings and a joint working group on livestock and cotton shipments.",
+        "ir": "Negizgi ötkööldördö bajı tekshirüüsünün jalpı saattarı jana mal menen paxta jönötüü boyuncha birgeleshken jumushchu top.",
+        "ru": "Общие часы таможенного досмотра на основных переходах и совместная рабочая группа по перевозкам скота и хлопка."
+      },
+      "body": {
+        "en": [
+          "A memorandum on trade and border coordination between the Irad Special Economic Zone and Uzbekistan was signed on Monday at the offices of the Lieutenant Governor in Talas.",
+          "The memorandum commits the customs services on both sides to shared inspection hours at the main crossings near Bazar-Korgon and Tash-Kömür, and sets up a joint working group on livestock and cotton shipments. Patrols on the frontier will be coordinated by both sides.",
+          "“Our farmers and our hauliers have waited a long time for predictable crossings,” Lieutenant Governor Aidar Maksat said after the signing. “This is a practical agreement between neighbours who need each other.”",
+          "The working group will meet for the first time in Tash-Kömür in April."
+        ]
+      },
+      "tags": [
+        "trade",
+        "Uzbekistan"
+      ]
+    }
+  ]
+}

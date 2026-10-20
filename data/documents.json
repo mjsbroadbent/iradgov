@@ -1,0 +1,419 @@
+{
+  "updated": "2026-10-20",
+  "documents": [
+    {
+      "id": "draft-mnr-2026-potatoes",
+      "kind": "draft",
+      "date": "2026-10-16",
+      "home": true,
+      "number": {
+        "en": "Draft order (for comment)",
+        "ir": "Buyruktun dolbooru (talkuu üchün)",
+        "ru": "Проект приказа (для обсуждения)"
+      },
+      "issuer": {
+        "en": "Ministry of Natural Resources",
+        "ir": "Jaratılısh baylıktarı ministrligi",
+        "ru": "Министерство природных ресурсов"
+      },
+      "status": {
+        "en": "Comments until 30-10-2026",
+        "ir": "Pikirler 30-10-2026ga cheyin",
+        "ru": "Замечания до 30-10-2026"
+      },
+      "title": {
+        "en": "On the temporary suspension of imports of table potatoes",
+        "ir": "Tamak-ash kartoshkasın import kıluunu ubaktıluu toktotuu jönündö",
+        "ru": "О временном приостановлении ввоза столового картофеля"
+      },
+      "summary": {
+        "en": "Would suspend import licences for table potatoes until 1 March 2027. Seed potatoes exempt. Written comments to the ministry's crop production department.",
+        "ir": "Tamak-ash kartoshkasın import kıluu litsenziyaların 2027-jıldın 1-martına cheyin toktotot. Urukluk kartoshka kirbeyt. Jazuu jüzündögü pikirler ministrliktin ösümdük östürüü bölümünö.",
+        "ru": "Приостанавливает лицензии на ввоз столового картофеля до 1 марта 2027 года. Семенной картофель исключён. Письменные замечания направляются в отдел растениеводства министерства."
+      },
+      "text": {
+        "en": [
+          "<ol><li>Import licences for table potatoes (fresh or chilled, other than seed) shall not be issued, and licences already issued shall be suspended, from the date of entry into force of this order until 1 March 2027.</li><li>Seed potatoes accompanied by a phytosanitary certificate are exempt.</li><li>Consignments in transit on the date of entry into force may be cleared on presentation of the bill of lading.</li><li>The order shall be reviewed in February 2027, or earlier if the average retail price in the Bazar-i Kalan, Talas, rises markedly over two consecutive weeks.</li><li>The Customs Service and the Talas Customs Clearance Terminal shall apply this order at all crossings.</li></ol>",
+          "Written comments may be sent to the crop production department of the Ministry of Natural Resources until 30 October 2026."
+        ]
+      }
+    },
+    {
+      "id": "ed-2026-31",
+      "kind": "directive",
+      "date": "2026-09-26",
+      "home": false,
+      "number": {
+        "en": "Executive Directive 2026/31",
+        "ir": "2026/31 Atkaruu direktivası",
+        "ru": "Исполнительная директива 2026/31"
+      },
+      "issuer": {
+        "en": "Office of the Governor",
+        "ir": "Gubernatordun apparatı",
+        "ru": "Аппарат губернатора"
+      },
+      "status": {
+        "en": "In force",
+        "ir": "Küchündö",
+        "ru": "Действует"
+      },
+      "title": {
+        "en": "On the printing of textbooks for public schools, 2027–2030",
+        "ir": "2027–2030-jıldarı mamlekettik mektepter üchün okuu kitepterin basuu jönündö",
+        "ru": "О печати учебников для государственных школ на 2027–2030 годы"
+      },
+      "summary": {
+        "en": "At least IS 41 million over four years; a curriculum review commission; expert review and competition for every new title; a QR code on each copy.",
+        "ir": "Tört jılga keminde 41 million som; okuu programmasın karoo komissiyası; ar bir jañı kitepke ekspertiza jana konkurs; ar bir nuskada QR kod.",
+        "ru": "Не менее 41 млн сомов на четыре года; комиссия по пересмотру программ; экспертиза и конкурс для каждого нового учебника; QR-код на каждом экземпляре."
+      },
+      "text": {
+        "en": [
+          "<ol><li>The Department of Education shall prepare a programme for the printing of textbooks for public schools for 2027 to 2030 and submit it with the draft budget for 2027.</li><li>Not less than IS 41,000,000 shall be provided for the programme over its four years.</li><li>A commission on the curriculum and textbooks is established under the chairmanship of the head of the curriculum section of the Department of Education. It shall review the books now in use and report by 1 March 2027.</li><li>No new title shall be ordered until it has passed an expert review. Authors and manuscripts shall be selected by open competition.</li><li>Each copy shall bear a code identifying the district, school, class and pupil to whom it is issued.</li></ol>"
+        ]
+      },
+      "signed": {
+        "en": "Issued in the name of the Governor. Signed: A. Maksat, Lieutenant Governor, acting on the instructions of the Governor. Talas, 26 September 2026.",
+        "ir": "Gubernatordun atınan chıgarıldı. Kol koygon: A. Maksat, Vitse-gubernator, Gubernatordun tapshırması boyuncha. Talas, 2026-jıldın 26-sentyabrı.",
+        "ru": "Издано от имени губернатора. Подписал: А. Максат, вице-губернатор, по поручению губернатора. Талас, 26 сентября 2026 г."
+      }
+    },
+    {
+      "id": "ed-2026-24",
+      "kind": "directive",
+      "date": "2026-08-12",
+      "home": true,
+      "number": {
+        "en": "Executive Directive 2026/24",
+        "ir": "2026/24 Atkaruu direktivası",
+        "ru": "Исполнительная директива 2026/24"
+      },
+      "issuer": {
+        "en": "Office of the Governor",
+        "ir": "Gubernatordun apparatı",
+        "ru": "Аппарат губернатора"
+      },
+      "status": {
+        "en": "In force · census 15-10 to 30-11-2026",
+        "ir": "Küchündö · sanak 15-10 – 30-11-2026",
+        "ru": "Действует · перепись 15-10 – 30-11-2026"
+      },
+      "title": {
+        "en": "On the census of business entities, 2026",
+        "ir": "2026-jılkı ishkanalardın sanagı jönündö",
+        "ru": "О переписи хозяйствующих субъектов 2026 года"
+      },
+      "summary": {
+        "en": "The first census of all companies, sole traders, farms, workshops and market stalls in the ISEZ, from 15 October to 30 November 2026. Owners are asked to receive the enumerators.",
+        "ir": "IAEZdegi bardık kompaniyalardın, jeke ishkerlerdin, dıykan charbalarının, ustakanalardın jana bazar oorundarının algachkı sanagı, 2026-jıldın 15-oktyabrınan 30-noyabrına cheyin.",
+        "ru": "Первая перепись всех компаний, индивидуальных предпринимателей, ферм, мастерских и торговых мест ОЭЗИ с 15 октября по 30 ноября 2026 года. Владельцев просят принять счётчиков."
+      },
+      "text": {
+        "en": [
+          "<ol><li>A census of business entities shall be held in the three cities of governorate significance and the six districts from 15 October to 30 November 2026.</li><li>The census shall be carried out by the Territorial Statistics Office, with the assistance of the city and district administrations.</li><li>The census covers registered companies, sole traders, farms, workshops, market stalls and businesses carried on at home, whether or not they appear on the register of firms.</li><li>Information collected shall be used for statistical purposes only and shall not be disclosed to tax or other inspection bodies in a form that identifies a respondent.</li><li>IS 11,400,000 is allocated from the reserve of the Office of the Lieutenant Governor.</li><li>Preliminary results shall be published before the review of the 2027 budget.</li></ol>"
+        ]
+      },
+      "signed": {
+        "en": "Issued in the name of the Governor. Signed: A. Maksat, Lieutenant Governor, acting on the instructions of the Governor. Talas, 12 August 2026.",
+        "ir": "Gubernatordun atınan chıgarıldı. Kol koygon: A. Maksat, Vitse-gubernator, Gubernatordun tapshırması boyuncha. Talas, 2026-jıldın 12-avgustu.",
+        "ru": "Издано от имени губернатора. Подписал: А. Максат, вице-губернатор, по поручению губернатора. Талас, 12 августа 2026 г."
+      }
+    },
+    {
+      "id": "dpi-2026-10-08",
+      "kind": "notice",
+      "date": "2026-10-08",
+      "home": false,
+      "number": {
+        "en": "Notice",
+        "ir": "Bildirüü",
+        "ru": "Уведомление"
+      },
+      "issuer": {
+        "en": "Department of Public Information",
+        "ir": "Kogomduk maalımat departamenti",
+        "ru": "Департамент общественной информации"
+      },
+      "title": {
+        "en": "Addition to the list of restricted sites (unlicensed financial activity)",
+        "ir": "Chektelgen sayttar tizmesine koshumcha (litsenziyasız finansılık ish)",
+        "ru": "Дополнение к списку ограниченных сайтов (нелицензированная финансовая деятельность)"
+      },
+      "summary": {
+        "en": "The website of the token marketed as “Tulparcoin” and the foreign exchange platform on which it trades have been added to the list supplied to telecommunications operators, at the request of financial supervisors.",
+        "ir": "“Tulparcoin” dep satılgan tokendin saytı jana al satılgan chet eldik birja finansılık közömöldööchülördün suroosu boyuncha baylanısh operatorloruna berilgen tizmege koshuldu.",
+        "ru": "Сайт токена «Тулпаркоин» и зарубежная биржа, на которой он торгуется, внесены в список для операторов связи по просьбе финансовых надзорных органов."
+      }
+    },
+    {
+      "id": "boi-2026-09-29",
+      "kind": "bank",
+      "date": "2026-09-29",
+      "home": false,
+      "number": {
+        "en": "Bank of Irad Notice 2026/5",
+        "ir": "Irad Bankının 2026/5 bildirüüsü",
+        "ru": "Уведомление Банка Ирада 2026/5"
+      },
+      "issuer": {
+        "en": "Bank of Irad",
+        "ir": "Irad Bankı",
+        "ru": "Банк Ирада"
+      },
+      "status": {
+        "en": "In force",
+        "ir": "Küchündö",
+        "ru": "Действует"
+      },
+      "title": {
+        "en": "On payment services offered without a licence",
+        "ir": "Litsenziyasız sunulgan tölöm kızmattarı jönündö",
+        "ru": "О платёжных услугах, оказываемых без лицензии"
+      },
+      "summary": {
+        "en": "The acceptance of payments and the holding of customer funds for residents of the ISEZ are licensed activities under the Banking and Commercial Currency Act 1993, whatever unit the service records.",
+        "ir": "IAEZ turgundarı üchün tölöm kabıl aluu jana kardarlardın karajatın saktoo, kızmat kanday birdik menen esepteshpesin, 1993-jılkı Bank jana sooda valyutası jönündögü Mıyzam boyuncha litsenziyalanuuchu ish.",
+        "ru": "Приём платежей и хранение средств клиентов для жителей ОЭЗИ являются лицензируемой деятельностью по Закону о банках и коммерческой валюте 1993 года, в каких бы единицах ни вёлся учёт."
+      },
+      "text": {
+        "en": [
+          "<ol><li>Any person who accepts payments from, or holds funds on behalf of, residents of the Irad Special Economic Zone carries on a payment or deposit-taking business within the meaning of the Banking and Commercial Currency Act 1993, whether the balances it records are expressed in som, in foreign currency or in any other unit.</li><li>Such a business requires a licence from the Bank of Irad.</li><li>Licensed banks shall not process transfers to or from services that carry on such a business without a licence.</li><li>Residents are advised that balances held with an unlicensed service carry no protection.</li></ol>"
+        ]
+      },
+      "signed": {
+        "en": "For the Bank of Irad: E. Sadykbekov, Deputy Chairman. Talas, 29 September 2026.",
+        "ir": "Irad Bankı üchün: E. Sadykbekov, töraganın orunbasarı. Talas, 2026-jıldın 29-sentyabrı.",
+        "ru": "За Банк Ирада: Э. Садыкбеков, заместитель председателя. Талас, 29 сентября 2026 г."
+      }
+    },
+    {
+      "id": "boi-2026-09-24",
+      "kind": "bank",
+      "date": "2026-09-24",
+      "home": false,
+      "number": {
+        "en": "Bank of Irad statement",
+        "ir": "Irad Bankının bildirüüsü",
+        "ru": "Заявление Банка Ирада"
+      },
+      "issuer": {
+        "en": "Bank of Irad",
+        "ir": "Irad Bankı",
+        "ru": "Банк Ирада"
+      },
+      "title": {
+        "en": "On the digital token marketed as “Tulparcoin”",
+        "ir": "“Tulparcoin” dep satılgan sanariptik token jönündö",
+        "ru": "О цифровом токене, продвигаемом под названием «Тулпаркоин»"
+      },
+      "summary": {
+        "en": "Not legal tender; not issued or backed by any Iradi institution; not covered by the bank's reserves; no deposit protection. Buyers act at their own risk.",
+        "ir": "Mıyzamduu tölöm karajatı emes; Iraddın ech bir mekemesi chıgarbagan jana kamsızdabagan; bankın rezervi menen kamtılbagan; depozit korgoosu jok. Satıp algandar öz tobokeldigi menen alat.",
+        "ru": "Не является законным платёжным средством; не выпущен и не обеспечен ни одним учреждением Ирада; не покрыт резервами банка; не застрахован. Покупатели действуют на свой риск."
+      },
+      "text": {
+        "en": [
+          "The Bank of Irad has received enquiries about a digital token promoted to residents under the name “Tulparcoin”.",
+          "The token is not legal tender in the Irad Special Economic Zone, where the legal tender is the som and the United States dollar. It is not issued or backed by any Iradi institution and is not covered by the bank's dollar reserves. Balances in it carry no deposit protection. Persons who buy it do so entirely at their own risk.",
+          "The Bank of Irad Act does not give the bank powers over assets that are neither money nor bank deposits. The offering of payment services is a separate matter, which the bank is examining under the Banking and Commercial Currency Act 1993.",
+          "The som remains fixed at 8.40 to the United States dollar and fully covered by the bank's reserves."
+        ]
+      },
+      "signed": {
+        "en": "For the Bank of Irad: E. Sadykbekov, Deputy Chairman. Talas, 24 September 2026.",
+        "ir": "Irad Bankı üchün: E. Sadykbekov, töraganın orunbasarı. Talas, 2026-jıldın 24-sentyabrı.",
+        "ru": "За Банк Ирада: Э. Садыкбеков, заместитель председателя. Талас, 24 сентября 2026 г."
+      }
+    },
+    {
+      "id": "boi-2026-02",
+      "kind": "bank",
+      "date": "2026-05-04",
+      "home": true,
+      "number": {
+        "en": "Bank of Irad Notice 2026/2",
+        "ir": "Irad Bankının 2026/2 bildirüüsü",
+        "ru": "Уведомление Банка Ирада 2026/2"
+      },
+      "issuer": {
+        "en": "Bank of Irad",
+        "ir": "Irad Bankı",
+        "ru": "Банк Ирада"
+      },
+      "status": {
+        "en": "In force",
+        "ir": "Küchündö",
+        "ru": "Действует"
+      },
+      "title": {
+        "en": "On cash operations in United States dollars",
+        "ir": "AKSh dolları menen nakta operatsiyalar jönündö",
+        "ru": "О наличных операциях в долларах США"
+      },
+      "summary": {
+        "en": "While banknote shipments from correspondent banks are reduced, banks may set monthly limits on cash dollar withdrawals and conversions per customer. Non-cash transfers, state contracts and the official rate of 8.40 are not affected.",
+        "ir": "Korrespondent banktardan banknot jetkirüü azaygan mezgilde banktar bir kardar üchün dollardı naktalay aluuga jana almashtıruuga aylık chek koyo alat. Naktasız kotoruular, mamlekettik kelishimder jana 8,40 rasmiy kursu özgörböyt.",
+        "ru": "Пока поставки банкнот от банков-корреспондентов сокращены, банки могут устанавливать месячные лимиты на снятие наличных долларов и конверсию для одного клиента. Безналичные переводы, госконтракты и официальный курс 8,40 не затрагиваются."
+      },
+      "text": {
+        "en": [
+          "<ol><li>Until shipments of United States dollar banknotes through correspondent banks return to their usual level, a licensed bank may set a monthly limit per customer on cash withdrawals in United States dollars and on conversions of som into United States dollar cash.</li><li>A bank that sets a limit shall publish it in its branches and apply it equally to all customers of the same class.</li><li>Limits shall not apply to non-cash transfers in United States dollars, to payments under contracts with the Government of the Irad Special Economic Zone and its enterprises, or to the repayment of dollar deposits by transfer.</li><li>Conversions shall be made at the official rate of IS 8.40 to the United States dollar. The som remains fully covered by the reserves of the Bank of Irad.</li><li>This notice shall be reviewed each quarter.</li></ol>"
+        ]
+      },
+      "signed": {
+        "en": "For the Bank of Irad: A. Temirov, Chairman. Talas, 4 May 2026.",
+        "ir": "Irad Bankı üchün: A. Temirov, töraga. Talas, 2026-jıldın 4-mayı.",
+        "ru": "За Банк Ирада: А. Темиров, председатель. Талас, 4 мая 2026 г."
+      }
+    },
+    {
+      "id": "dic-2026-eirad",
+      "kind": "notice",
+      "date": "2026-10-01",
+      "home": true,
+      "number": {
+        "en": "Notice",
+        "ir": "Bildirüü",
+        "ru": "Уведомление"
+      },
+      "issuer": {
+        "en": "Department of Infrastructure and Communications",
+        "ir": "Infrastruktura jana baylanısh departamenti",
+        "ru": "Департамент инфраструктуры и связи"
+      },
+      "title": {
+        "en": "e-Irad public services portal opens in pilot",
+        "ir": "e-Irad mamlekettik kızmattar portalı sınoo rejiminde achıldı",
+        "ru": "Портал государственных услуг e-Irad открыт в пилотном режиме"
+      },
+      "summary": {
+        "en": "Passport queue numbers, permit pre-applications, utility bills, parcel tracking and motor policy checks move to e-irad.org. Some services remain available only at district offices during the pilot.",
+        "ir": "Pasport kezegi, uruksatka aldın ala arız, kommunaldık esepter, posılka izdöö jana avtopolis tekshirüü e-irad.org'go köchtü. Sınoo mezgilinde ayrım kızmattar aymaktık keñselerde gana.",
+        "ru": "Очередь на паспорт, предварительные заявки на разрешения, коммунальные счета, отслеживание посылок и проверка автополиса переходят на e-irad.org. Часть услуг на время пилота доступна только в районных офисах."
+      },
+      "text": {
+        "en": [
+          "From 1 October 2026 the Department of Infrastructure and Communications is opening the e-Irad portal at <a href=\"https://e-irad.org/\">e-irad.org</a> in pilot. Services will be added over the coming months.",
+          "During the pilot, applications that require original documents or the payment of a state fee are completed at the district office or city hall. Online payment will open to Talasbank card holders when the bank's payment gateway upgrade is complete.",
+          "The services formerly listed on the ministries' pages in the id.gov zone are now listed on e-Irad. Ministries' id.gov e-mail addresses remain valid."
+        ]
+      }
+    },
+    {
+      "id": "tec-2026-calendar",
+      "kind": "notice",
+      "date": "2026-09-15",
+      "home": false,
+      "number": {
+        "en": "Notice",
+        "ir": "Bildirüü",
+        "ru": "Уведомление"
+      },
+      "issuer": {
+        "en": "Territorial Election Commission",
+        "ir": "Aymaktık shayloo komissiyası",
+        "ru": "Территориальная избирательная комиссия"
+      },
+      "title": {
+        "en": "General election of 2 November 2027: preliminary calendar",
+        "ir": "2027-jıldın 2-noyabrındagı jalpı shayloo: aldın ala kalendar",
+        "ru": "Всеобщие выборы 2 ноября 2027 года: предварительный календарь"
+      },
+      "summary": {
+        "en": "Governor and Lieutenant Governor (joint ticket), the Mejlis and the city councils of Talas, Nurzhan and Iyık Janyl. Terms begin on 22 November 2027.",
+        "ir": "Gubernator jana Vitse-gubernator (birgelikte), Mejlis jana Talas, Nurzhan, Iyık Janıl shaar keñeshteri. Iygarım möönöttörü 2027-jıldın 22-noyabrında bashtalat.",
+        "ru": "Губернатор и вице-губернатор (совместный список), Меджлис и городские советы Таласа, Нуржана и Ийык-Джаныла. Полномочия начинаются 22 ноября 2027 года."
+      },
+      "text": {
+        "en": [
+          "Under the Elective Governor Acts, the next general election in the Irad Special Economic Zone will be held on Tuesday 2 November 2027 for the offices of Governor and Lieutenant Governor, elected together on a joint ticket; the 60 members of the Territorial Legislature (Mejlis) in eight constituencies; and the city councils of Talas, Nurzhan and Iyık Janyl.",
+          "The term of the Governor and Lieutenant Governor begins on the fourth Monday of November, 22 November 2027.",
+          "Nominations follow the Commission's procedures of 2015, including the candidate's residence declaration signed before a commissioner. The detailed calendar of nominations, registration and the voter registers will be published in the first half of 2027."
+        ]
+      }
+    },
+    {
+      "id": "ed-2022-14",
+      "kind": "directive",
+      "date": "2022-06-20",
+      "home": false,
+      "number": {
+        "en": "Executive Directive 2022/14",
+        "ir": "2022/14 Atkaruu direktivası",
+        "ru": "Исполнительная директива 2022/14"
+      },
+      "issuer": {
+        "en": "Office of the Governor",
+        "ir": "Gubernatordun apparatı",
+        "ru": "Аппарат губернатора"
+      },
+      "status": {
+        "en": "In force",
+        "ir": "Küchündö",
+        "ru": "Действует"
+      },
+      "title": {
+        "en": "On water plans for dry years",
+        "ir": "Kurgak jıldar üchün suu plandarı jönündö",
+        "ru": "О водных планах на маловодные годы"
+      },
+      "summary": {
+        "en": "Large water users must keep a plan for dry years. New rice paddies in the lower Chu are limited.",
+        "ir": "Iri suu koldonuuchular kurgak jıldar üchün plan karmashı kerek. Tömönkü Chüydö jañı shalı talaaları chekteledi.",
+        "ru": "Крупные водопользователи обязаны иметь план на маловодные годы. Новые рисовые чеки в низовьях Чу ограничены."
+      },
+      "text": {
+        "en": [
+          "<ol><li>Every user drawing more than the threshold set by the Ministry of Natural Resources from a canal, river or reservoir in the Irad Special Economic Zone shall keep a water plan for dry years and file it with the basin directorate.</li><li>A dry-year plan shall state the reduction the user can make at one-third and at one-half of its normal allocation, and the order in which it will make it.</li><li>No new rice paddies shall be laid out in the lower Chu without the consent of the Ministry of Natural Resources.</li><li>The Talas River Hydrological Monitoring Service shall publish the basin forecast for each irrigation season by 1 April.</li></ol>"
+        ]
+      },
+      "signed": {
+        "en": "Signed: E. Toktarov, Governor. Talas, 20 June 2022.",
+        "ir": "Kol koygon: E. Toktarov, Gubernator. Talas, 2022-jıldın 20-iyunu.",
+        "ru": "Подписал: Э. Токтаров, губернатор. Талас, 20 июня 2022 г."
+      }
+    },
+    {
+      "id": "decree-2016-districts",
+      "kind": "decree",
+      "date": "2016-03-01",
+      "home": false,
+      "number": {
+        "en": "Executive Decree of 1 March 2016",
+        "ir": "2016-jıldın 1-martındagı Atkaruu dekreti",
+        "ru": "Исполнительный декрет от 1 марта 2016 года"
+      },
+      "issuer": {
+        "en": "Office of the Governor",
+        "ir": "Gubernatordun apparatı",
+        "ru": "Аппарат губернатора"
+      },
+      "status": {
+        "en": "In force since 01-07-2016",
+        "ir": "01-07-2016dan beri küchündö",
+        "ru": "Действует с 01-07-2016"
+      },
+      "title": {
+        "en": "On the districts of the Irad Special Economic Zone",
+        "ir": "Irad Atayın Ekonomikalık Zonasının aymaktarı jönündö",
+        "ru": "О районах Особой экономической зоны Ирада"
+      },
+      "summary": {
+        "en": "Created Toktogul District from the northern part of Lower Naryn District and put district boundaries on crests and streams. The electoral map is unchanged.",
+        "ir": "Tömönkü Narın aymagının tündük bölügünön Toktogul aymagın tüzdü jana aymaktardın chek araların kırka jana suularga koydu. Shayloo kartası özgörgön jok.",
+        "ru": "Образовал Токтогульский район из северной части Нижненарынского и провёл границы районов по хребтам и рекам. Избирательная карта не изменилась."
+      },
+      "text": {
+        "en": [
+          "<ol><li>Toktogul District is formed from the northern part of Lower Naryn District, with its administrative centre at Toktogul. It comprises the Fergana Mountain Transit Highway corridor from the south portal of the Otmek Tunnel over the Fergana Gateway, and the floor of the Toktogul basin with the town of Toktogul, the reservoir and the dam.</li><li>The administration of Toktogul District shall conduct the day-to-day dealings of the Government with the basin's councils of elders under the 2009 corridor protocol.</li><li>Talas District extends to the crest of the Kyrgyz Range. The plain north of the range west of the Merke stream passes to Kara-Buura District, the village of Ming-Örük to Talas District, and the foothill villages along the Chatkal road, with Ak-Bulak in the upper Urmaral valley, to Sary-Bulak District.</li><li>The constituencies of the Territorial Legislature are unchanged; Toktogul District votes in the Lower Naryn constituency.</li><li>This decree enters into force on 1 July 2016.</li></ol>"
+        ]
+      },
+      "signed": {
+        "en": "Signed: E. Toktarov, Governor. Talas, 1 March 2016.",
+        "ir": "Kol koygon: E. Toktarov, Gubernator. Talas, 2016-jıldın 1-martı.",
+        "ru": "Подписал: Э. Токтаров, губернатор. Талас, 1 марта 2016 г."
+      }
+    }
+  ]
+}
