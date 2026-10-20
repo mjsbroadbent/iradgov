@@ -62,7 +62,7 @@
   var NAV = [
     ["home", "/"], ["governor", "/governor.html"], ["ltgov", "/lieutenant-governor.html"], ["admin", "/administration.html"],
     ["regions", "/regions.html"], ["press", "/press.html"], ["decrees", "/decrees.html"], ["holidays", "/holidays.html"],
-    ["symbols", "/symbols.html"], ["contact", "/contact.html"]
+    ["flag", "/flag-status.html"], ["symbols", "/symbols.html"], ["contact", "/contact.html"]
   ];
   var NAVPAGE = { release: "press" };
 
@@ -325,6 +325,85 @@
     }).join("");
   };
 
+
+  /* flag status: data/flag.json (standing half-mast days + the Governor's proclamations) */
+  var FT = {
+    en: { h1: "Flag status", full: "Full staff", half: "Half-mast",
+      todayFull: "The national flag is flown at <b>full staff</b> today.",
+      todayHalf: "The national flag is flown at <b>half-mast</b> today.",
+      until: "Until sunset on {d}.", reasonK: "Reason", scopeK: "Where", refK: "Authority",
+      nextK: "Next half-mast day", standingH: "Half-mast every year", ordersH: "Proclamations", dates: "Dates", why: "Occasion",
+      protoH: "Flying the national flag",
+      proto: "<p>The national flag is flown under the State Symbols Act 1993. It flies daily on Government House, the Mejlis, district and city administrations, courts and Gendarmerie posts, and on schools during the school year. Citizens, businesses and organisations are encouraged to fly it on public holidays.</p><p>On half-mast days the flag is first raised briskly to the top of the staff, then lowered slowly to half the height of the staff, and before it is taken down at sunset it is raised again to the top. Where the flag cannot be lowered, a black ribbon is tied to the top of the staff. No other flag may fly higher than the national flag, and flags flown beside it are lowered with it.</p><p>Half-mast days are set by the Holidays and Commemorative Days Act and by proclamation of the Governor. Proclamations are announced by the Office of the Governor's press service and read on IradOne.</p>",
+      contactH: "Questions", contact: "Protocol Department, Office of the Governor, Government House, Central Square, Talas. +996-39-2-21-10-12. <a href=\"mailto:info@iradgov.org\">info@iradgov.org</a>",
+      staffAlt: "The national flag on its staff" },
+    ir: { h1: "Tuunun abalı", full: "Tolugu menen", half: "Jarım machtada",
+      todayFull: "Bügün mamlekettik tuu <b>tolugu menen</b> kötörülgön.",
+      todayHalf: "Bügün mamlekettik tuu <b>jarım machtada</b>.",
+      until: "{d} kün batkanga cheyin.", reasonK: "Sebebi", scopeK: "Kayda", refK: "Negiz",
+      nextK: "Kiyinki jarım machta künü", standingH: "Jıl sayın jarım machtada", ordersH: "Bildirüülör", dates: "Kündör", why: "Sebep",
+      protoH: "Mamlekettik tuunu kötörüü",
+      proto: "<p>Mamlekettik tuu 1993-jılkı Mamlekettik simvoldor jönündögü mıyzam boyuncha kötörülöt. Al kün sayın Ökmöt üyündö, Mejliste, aymak jana shaar administratsiyalarında, sottordo, Jandarm posttorunda, okuu jılında mekteptерde jelbireyt. Jarandar, ishkanalar jana uyumdar mayram künderi tuu kötörüügö chakırılat.</p><p>Jarım machta künderi tuu adegende machtanın uchuna tez kötörülöt, andan kiyin jay jarımına cheyin tüshürülöt; kün batkanda alınar aldında kayra uchuna kötörülöt. Tuunu tüshürüügö mümkün bolboso, machtanın uchuna kara lenta baylanat. Mamlekettik tuudan biyik bashka tuu kötörülböyt; anın janındagı tuular da kosho tüshürülöt.</p><p>Jarım machta künderin Mayram jana eskerüü künderi jönündögü mıyzam jana Gubernatordun bildirüüsü belgileyt. Bildirüülördü Gubernatordun apparatının press-kızmatı jarıyalayt, IradOne okuyt.</p>",
+      contactH: "Suroolor", contact: "Protokol bölümü, Gubernatordun apparatı, Ökmöt üyü, Borborduk ayant, Talas. +996-39-2-21-10-12. <a href=\"mailto:info@iradgov.org\">info@iradgov.org</a>",
+      staffAlt: "Machtadagı mamlekettik tuu" },
+    ru: { h1: "Положение флага", full: "Поднят полностью", half: "Приспущен",
+      todayFull: "Сегодня государственный флаг <b>поднят полностью</b>.",
+      todayHalf: "Сегодня государственный флаг <b>приспущен</b>.",
+      until: "До заката {d}.", reasonK: "Повод", scopeK: "Где", refK: "Основание",
+      nextK: "Ближайший день приспущенного флага", standingH: "Ежегодно приспускается", ordersH: "Распоряжения", dates: "Даты", why: "Повод",
+      protoH: "Использование государственного флага",
+      proto: "<p>Государственный флаг поднимается в соответствии с Законом о государственных символах 1993 года. Он ежедневно поднят над Домом правительства, Меджлисом, районными и городскими администрациями, судами и постами жандармерии, а в учебный год — над школами. Гражданам, предприятиям и организациям рекомендуется поднимать флаг в праздничные дни.</p><p>В дни траура флаг сначала быстро поднимают до верха флагштока, затем медленно опускают до середины; перед спуском на закате его снова поднимают до верха. Если флаг нельзя приспустить, к верхушке флагштока привязывают чёрную ленту. Никакой другой флаг не может находиться выше государственного; флаги рядом с ним приспускаются вместе с ним.</p><p>Дни приспущенного флага устанавливаются Законом о праздничных и памятных днях и распоряжениями губернатора. Распоряжения объявляет пресс-служба Аппарата губернатора, их зачитывают на IradOne.</p>",
+      contactH: "Вопросы", contact: "Протокольный отдел, Аппарат губернатора, Дом правительства, Центральная площадь, Талас. +996-39-2-21-10-12. <a href=\"mailto:info@iradgov.org\">info@iradgov.org</a>",
+      staffAlt: "Государственный флаг на флагштоке" }
+  };
+  function ft(k, v) { var d = FT[LANG] || FT.en; var s = d[k] != null ? d[k] : FT.en[k]; return v ? fill(s, v) : s; }
+  function flagState(data, day) {
+    var y = day.slice(0, 4), md = day.slice(5);
+    var order = (data.orders || []).filter(function (o) { return o.from <= day && day <= o.to; })[0];
+    if (order) return { half: true, order: order, until: order.to };
+    var st = (data.standing || []).filter(function (s) { return s.md === md; })[0];
+    if (st) return { half: true, standing: st, until: day };
+    return { half: false };
+  }
+  function nextHalf(data, day) {
+    var y = +day.slice(0, 4), c = [];
+    (data.standing || []).forEach(function (s) { [y, y + 1].forEach(function (yy) { var d = yy + "-" + s.md; if (d > day) c.push({ date: d, s: s }); }); });
+    (data.orders || []).forEach(function (o) { if (o.from > day) c.push({ date: o.from, o: o }); });
+    c.sort(function (a, b) { return a.date < b.date ? -1 : 1; });
+    return c[0];
+  }
+  pages.flag = function () {
+    var el = $("#flagPage"); if (!el) return;
+    $("#flagCrumb").textContent = ft("h1");
+    getJSON("/data/flag.json").then(function (data) {
+      var day = iradToday(), st = flagState(data, day), nx = nextHalf(data, day);
+      var info = "";
+      if (st.half) {
+        var src = st.order || st.standing;
+        info = '<p class="flag-until">' + esc(ft("until", { d: fmtDate(st.until) })) + "</p>" +
+          '<dl class="flag-dl"><dt>' + esc(ft("reasonK")) + "</dt><dd>" + esc(tri(st.order ? src.reason : src.name)) + (st.standing ? " " + esc(tri(src.note)) : "") + "</dd>" +
+          (st.order ? "<dt>" + esc(ft("scopeK")) + "</dt><dd>" + esc(tri(src.scope)) + "</dd><dt>" + esc(ft("refK")) + "</dt><dd>" + esc(src.ref) + "</dd>" : "") + "</dl>";
+      } else if (nx) {
+        info = '<p class="flag-next"><span class="muted">' + esc(ft("nextK")) + ":</span> <b>" + esc(fmtDate(nx.date)) + "</b>, " + esc(tri(nx.s ? nx.s.name : nx.o.reason)) + "</p>";
+      }
+      el.innerHTML =
+        '<h1 class="page-h1">' + esc(ft("h1")) + "</h1>" +
+        '<section class="flag-now card ' + (st.half ? "is-half" : "is-full") + '">' +
+          '<div class="flag-pole" role="img" aria-label="' + esc(ft("staffAlt")) + ": " + esc(ft(st.half ? "half" : "full")) + '"><span class="staff"></span><img class="cloth" src="/assets/flag.svg" alt=""></div>' +
+          '<div class="flag-txt"><div class="flag-k">' + esc(fmtDate(day)) + '</div><div class="flag-state">' + esc(ft(st.half ? "half" : "full")) + "</div>" +
+          "<p>" + ft(st.half ? "todayHalf" : "todayFull") + "</p>" + info + "</div></section>" +
+        '<div class="sect-h"><h2>' + esc(ft("standingH")) + '</h2></div><div class="tbl-wrap"><table class="data flag-tbl"><thead><tr><th>' + esc(ft("dates")) + "</th><th>" + esc(ft("why")) + "</th></tr></thead><tbody>" +
+          (data.standing || []).map(function (s) { var y = day.slice(0, 4); return '<tr><td class="num">' + esc(fmtDate(y + "-" + s.md, true)) + "</td><td><strong>" + esc(tri(s.name)) + '</strong><br><span class="small muted">' + esc(tri(s.note)) + "</span></td></tr>"; }).join("") +
+        "</tbody></table></div>" +
+        '<div class="sect-h"><h2>' + esc(ft("ordersH")) + '</h2></div><div class="tbl-wrap"><table class="data flag-tbl"><thead><tr><th>' + esc(ft("dates")) + "</th><th>" + esc(ft("why")) + "</th></tr></thead><tbody>" +
+          (data.orders || []).slice().sort(function (a, b) { return a.from < b.from ? 1 : -1; }).map(function (o) {
+            var d = o.from === o.to ? fmtDate(o.from) : fmtDate(o.from) + " – " + fmtDate(o.to);
+            return '<tr class="' + (o.to < day ? "past" : "") + '"><td class="num">' + esc(d) + "</td><td>" + esc(tri(o.reason)) + '<br><span class="small muted">' + esc(tri(o.scope)) + " · " + esc(o.ref) + "</span></td></tr>";
+          }).join("") +
+        "</tbody></table></div>" +
+        '<div class="grid g-2" style="margin-top:24px"><div class="card"><h3>' + esc(ft("protoH")) + "</h3>" + ft("proto") + '</div><div class="card"><h3>' + esc(ft("contactH")) + "</h3><p>" + ft("contact") + "</p></div></div>";
+    }).catch(function () { failBox(el); });
+  };
 
   function render() {
     chrome();

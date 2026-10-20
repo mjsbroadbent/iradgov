@@ -1,0 +1,22 @@
+{
+ "_note": "Flag status. standing: half-mast every year on these days (Holidays and Commemorative Days Act 1993, rev. 2008). orders: Governor's proclamations, newest first. Dates are Irad Time, inclusive.",
+ "standing": [
+  {"md": "02-03",
+   "name": {"en": "Memorial Day of the Winter Uprising", "ir": "Kyshkı kötörülüshtün eskerüü künü", "ru": "День памяти Зимнего восстания"},
+   "note": {"en": "For those killed in the 1992 uprising. Service at the memorial on Central Square, Talas.", "ir": "1992-jılkı kötörülüshtö qaza bolgondordu eskerüü. Talastın Borborduk ayantındagı esteliktin janında ibadat.", "ru": "В память о погибших во время восстания 1992 года. Служба у мемориала на Центральной площади Таласа."}},
+  {"md": "08-15",
+   "name": {"en": "Remembrance Day of the Lost Tribes", "ir": "Jogolgon urukterdi eskerüü künü", "ru": "День памяти потерянных племён"},
+   "note": {"en": "Public holiday. Flags at half-mast from sunrise to sunset.", "ir": "Mayram kün. Tuular kün chıkkandan kün batkanga cheyin jarım machtada.", "ru": "Праздничный день. Флаги приспущены от восхода до заката."}}
+ ],
+ "orders": [
+  {"id": "p-2017-03", "from": "2017-01-24", "to": "2017-01-24", "ref": "Proclamation 2017/03",
+   "reason": {"en": "Day of the funeral of Nurlan Sadikov (1931–2017), film director, founder of the Iradi Western.", "ir": "Kinorejissyor, iradi vesterninin negizdöötchüsü Nurlan Sadikovdun (1931–2017) söök koyuu künü.", "ru": "День похорон Нурлана Садыкова (1931–2017), кинорежиссёра, основателя ирадского вестерна."},
+   "scope": {"en": "Government buildings and schools in Talas", "ir": "Talastagı mamlekettik imarattar jana mektepter", "ru": "Государственные здания и школы Таласа"}},
+  {"id": "p-2009-06", "from": "2009-02-05", "to": "2009-02-05", "ref": "Proclamation 2009/06",
+   "reason": {"en": "Day of the funeral of Kemel Ishakov (1930–2009), national novelist, at Arsha-Say.", "ir": "Eldik jazuuchu Kemel Ishakovdun (1930–2009) Arsha-Sayda söök koyuu künü.", "ru": "День похорон Кемела Исхакова (1930–2009), народного писателя, в Арша-Сае."},
+   "scope": {"en": "All government buildings and schools in the Special Economic Zone", "ir": "Atayın ekonomikalık zonadagı bardık mamlekettik imarattar jana mektepter", "ru": "Все государственные здания и школы Особой экономической зоны"}},
+  {"id": "p-2004-41", "from": "2004-11-15", "to": "2004-11-17", "ref": "Territorial Proclamation 2004/41",
+   "reason": {"en": "Three days of national mourning for Amanbek Alimbekov (1938–2004), Provisional President of the Republic in 1992 and Chancellor of Talas State University.", "ir": "1992-jılı Respublikanın Ubaktıluu Prezidenti, Talas mamlekettik universitetinin kantsleri Amanbek Alimbekov (1938–2004) üchün üch kündük eldik aza.", "ru": "Три дня национального траура по Аманбеку Алимбекову (1938–2004), временному президенту Республики в 1992 году и канцлеру Таласского государственного университета."},
+   "scope": {"en": "All public buildings, schools and Territorial offices", "ir": "Bardık koomduk imarattar, mektepter jana Territoriyalık mekemeler", "ru": "Все общественные здания, школы и территориальные учреждения"}}
+ ]
+}

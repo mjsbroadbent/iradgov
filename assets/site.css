@@ -263,3 +263,19 @@ table.data tr.next td { background: #fbf4e2; }
   .util, .nav, .foot, .mast .eirad, .langs { display: none !important; }
   body { background: #fff; }
 }
+
+/* flag status */
+.flag-now { display: flex; gap: 28px; align-items: stretch; margin: 8px 0 28px; border-top: 4px solid var(--crimson); }
+.flag-pole { position: relative; width: 150px; min-height: 190px; flex: none; }
+.flag-pole .staff { position: absolute; left: 8px; top: 0; bottom: 0; width: 5px; background: linear-gradient(90deg,#8d8d8d,#d9d9d9,#8d8d8d); border-radius: 2px; }
+.flag-pole .staff::before { content: ""; position: absolute; top: -7px; left: -4px; width: 13px; height: 13px; border-radius: 50%; background: var(--gold); }
+.flag-pole .cloth { position: absolute; left: 13px; width: 130px; height: auto; top: 6px; box-shadow: 0 1px 3px rgba(0,0,0,.25); transition: top .8s ease; }
+.flag-now.is-half .flag-pole .cloth { top: 72px; }
+.flag-k { font-size: .85rem; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.flag-state { font-family: var(--serif); font-size: 2rem; font-weight: 600; color: var(--crimson-deep); margin: 2px 0 6px; }
+.flag-dl { display: grid; grid-template-columns: auto 1fr; gap: 4px 14px; margin: 10px 0 0; }
+.flag-dl dt { font-weight: 600; color: var(--ink-2); }
+.flag-dl dd { margin: 0; }
+.flag-until, .flag-next { margin: 8px 0 0; }
+table.flag-tbl td.num { width: 13em; }
+@media (max-width: 600px) { .flag-now { flex-direction: column; gap: 12px; } .flag-pole { width: 120px; min-height: 170px; } .flag-pole .cloth { width: 100px; } .flag-now.is-half .flag-pole .cloth { top: 80px; } table.flag-tbl td.num { white-space: normal; width: 34%; text-align: left; } }
