@@ -22,6 +22,7 @@ menu and footer, switches language and renders the data-driven parts.
   key in the HTML; the English stays in the HTML). Iradi is the Kyrgyz-based Latin orthography (ı ö ü ñ j ch sh).
   Language is remembered in `localStorage` `iradgov_lang`; `?lang=ru` also works.
 - `assets/emblem.svg` (the flag's roundel on a crimson disc: the Office of the Governor's own seal, used on the Governor's pages, the symbols page, the footer and the news date box), `assets/flag.svg`, favicons made from the horse-and-star mark.
+- `assets/photos/`: official portraits of the Governor, the Lieutenant Governor and the First Lady (640×800, 4:5, in `figure.portrait-photo` / `.fl-portrait`, also the First Lady's card on the home page) and the photo of Zharkyn (960×800, Zharkyn page and home card). Generated with FLUX.2 dev from the approved character reference faces (irad_wiki character references); Zharkyn's coat toned down 18% in saturation.
 - `assets/state-emblem.svg` (the State Emblem) and `assets/state-emblem-160.png` (the same rendered at 160 px for the masthead; re-render it whenever the SVG changes).
 - Colours (`assets/site.css` `:root`): the State Emblem's crimson `#a8101a` / `#6d0710` and gold `#d4a72c` / `#ecc75a` / `#a87d14`, with its deep blue `#1d5296` / `#123a70` as a secondary accent only (table headers, notices, section rules, footer, flag-status chip, the ornament's baseline). The nav stays crimson.
 - Holidays are computed in `site.js` from the Holidays Act list (Easter Monday by the Gregorian reckoning; a

@@ -339,6 +339,9 @@ table.flag-tbl td.num { width: 13em; }
 
 /* The First Lady */
 .fl-portrait { margin: 0; background: #fff; border: 1px solid var(--line); padding: 8px; }
+.portrait-photo { margin: 0; background: #fff; border: 1px solid var(--line); padding: 8px; align-self: start; }
+.portrait-photo img { display: block; width: 100%; height: auto; }
+.portrait-photo figcaption { font-size: .78rem; color: var(--muted); text-align: center; margin-top: 6px; line-height: 1.35; }
 .fl-portrait img { display: block; width: 100%; height: auto; }
 .fl-k { font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; }
 .fl-body { margin-top: 10px; }
@@ -362,10 +365,12 @@ table.fl-tbl td.num { width: 9em; }
 .home-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; margin-top: 28px; }
 .home-pair .zh-home { margin-top: 0; }
 .home-pair .zh-home img { width: 150px; }
+.zh-home > a { flex: none; }
 @media (max-width: 960px) { .home-pair { grid-template-columns: minmax(0, 1fr); } }
 @media (max-width: 680px) {
   .fl-prog { grid-template-columns: minmax(0, 1fr); }
   .fl-portrait { max-width: 260px; }
+  .portrait-photo { max-width: 260px; }
   table.fl-tbl thead { display: none; }
   table.fl-tbl, table.fl-tbl tbody, table.fl-tbl tr, table.fl-tbl td { display: block; width: auto !important; }
   table.fl-tbl tr { border-bottom: 1px solid var(--line); padding: 6px 0; }
