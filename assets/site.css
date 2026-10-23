@@ -236,6 +236,9 @@ table.data tr.next td { background: #fbf4e2; }
 .foot .fine { border-top: 1px solid #ffffff2e; margin-top: 24px; padding-top: 14px; font-size: .8rem; color: #b9c3d3; display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
 .foot .femb { display: flex; gap: 12px; align-items: center; margin-bottom: 10px; }
 .foot .femb img { width: 42px; }
+.foot .tulpar-ch { display: inline-flex; align-items: center; gap: 9px; margin-top: 12px; line-height: 1.25; }
+.foot .tulpar-ch img { width: 22px; height: 22px; border-radius: 5px; flex: none; }
+.foot .tulpar-ch small { display: block; color: #b9c3d3; font-size: .78rem; }
 
 /* 404 */
 .nf { text-align: center; padding: 60px 0; }
