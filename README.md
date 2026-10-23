@@ -30,7 +30,7 @@ menu and footer, switches language and renders the data-driven parts.
 
 ## Exchange rate
 
-The home page reads the official rate from the shared daily numbers file, `https://iradone.com/data/today.json`
+Since 22 Oct 2026 the home page no longer shows the rate (the Bank of Irad site, bank.iradgov.org, does; the home page links to it). `rateWidget` remains in `site.js` for any element with `data-rate` (none at present). It reads the official rate from the shared daily numbers file, `https://iradone.com/data/today.json`
 (`rates.official.usd` and `rates.official.rows`), with a 6-second timeout. If it can't be read, it shows the peg,
 8.40 som per US dollar. Only a GET; nothing is sent.
 

@@ -240,7 +240,6 @@
   var pages = {};
 
   pages.home = function () {
-    rateWidget($("#rate"));
     getJSON("/data/press.json").then(function (d) {
       var all = (d.releases || []).slice().sort(sortByDate);
       var lg = all.filter(function (r) { return r.type === "lg"; });
