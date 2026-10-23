@@ -133,7 +133,7 @@
         "<div><h4>" + esc(t("footGov")) + "</h4><ul>" +
         ["governor", "firstlady", "ltgov", "admin", "regions", "decrees"].map(function (k) { return '<li><a href="' + navHref(k) + '">' + esc(t("nav_" + k)) + "</a></li>"; }).join("") +
         "</ul></div>" +
-        "<div><h4>" + esc(t("footMore")) + '</h4><ul><li><a href="' + SERVICES + '">' + esc(t("footServices")) + "</a></li>" +
+        "<div><h4>" + esc(t("footMore")) + '</h4><ul><li><a href="' + SERVICES + '">' + esc(t("footServices")) + "</a></li>" + '<li><a href="https://bank.iradgov.org/">' + esc(t("footBank")) + '</a></li><li><a href="https://archives.iradgov.org/">' + esc(t("footArch")) + "</a></li>" +
         ["press", "holidays", "flag", "symbols", "zharkyn", "contact"].map(function (k) { return '<li><a href="' + navHref(k) + '">' + esc(t("nav_" + k)) + "</a></li>"; }).join("") +
         "</ul></div></div>" +
         '<div class="fine"><span>' + esc(t("footCopy", { y: iradNow().getFullYear() })) + "</span><span>" + esc(t("footTime")) + "</span></div></div></footer>";
